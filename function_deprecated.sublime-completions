@@ -1,0 +1,22 @@
+{
+    "scope": "source.php constant.other, source.php meta.function-call",
+    "completions": [
+        {"trigger":"ereg() [DEPRECATED]","contents":"ereg(${1:pattern}, ${2:string}${3:, ${4:&registers}})"},
+        {"trigger":"ereg_replace() [DEPRECATED]","contents":"ereg_replace(${1:pattern}, ${2:replacement}, ${3:string})"},
+        {"trigger":"eregi() [DEPRECATED]","contents":"eregi(${1:pattern}, ${2:string}${3:, ${4:&registers}})"},
+        {"trigger":"eregi_replace() [DEPRECATED]","contents":"eregi_replace(${1:pattern}, ${2:replacement}, ${3:string})"},
+        {"trigger":"split() [DEPRECATED]","contents":"split(${1:pattern}, ${2:string}${3:, ${4:limit}})"},
+        {"trigger":"spliti() [DEPRECATED]","contents":"spliti(${1:pattern}, ${2:string}${3:, ${4:limit}})"},
+        {"trigger":"sql_regcase() [DEPRECATED]","contents":"sql_regcase(${1:string})"},
+        {"trigger":"magic_quotes_runtime() [DEPRECATED]","contents":"magic_quotes_runtime(${1:new_setting})"},
+        {"trigger":"set_magic_quotes_runtime() [DEPRECATED]","contents":"set_magic_quotes_runtime(${1:new_setting})"},
+        {"trigger":"call_user_method() [DEPRECATED]","contents":"call_user_method(${1:method_name}, ${2:&object}${3:, ${4:parameter}${5:, ${6:...}}})"},
+        {"trigger":"call_user_method_array() [DEPRECATED]","contents":"call_user_method_array(${1:method_name}, ${2:&object}, ${3:params})"},
+        {"trigger":"set_socket_blocking() [DEPRECATED]","contents":"set_socket_blocking(${1:socket}, ${2:mode})"},
+        {"trigger":"mysql_db_query() [DEPRECATED]","contents":"mysql_db_query(${1:database_name}, ${2:query}${3:, ${4:link_identifier}})"},
+        {"trigger":"mysql_list_dbs() [DEPRECATED]","contents":"mysql_list_dbs(${1:link_identifier})"},
+        {"trigger":"mysql_list_tables() [DEPRECATED]","contents":"mysql_list_tables(${1:database_name}${2:, ${3:link_identifier}})"},
+        {"trigger":"mysql_listtables() [DEPRECATED]","contents":"mysql_listtables(${1:database_name}${2:, ${3:link_identifier}})"},
+        {"trigger":"mcrypt_generic_end() [DEPRECATED]","contents":"mcrypt_generic_end(${1:td})"},
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "scope": "source.php support.class.exception, source.php meta.catch",
+    "completions": [
+        "Exception",
+        "ErrorException",
+        "DOMException",
+        "LogicException",
+        "BadFunctionCallException",
+        "BadMethodCallException",
+        "DomainException",
+        "InvalidArgumentException",
+        "LengthException",
+        "OutOfRangeException",
+        "RuntimeException",
+        "OutOfBoundsException",
+        "OverflowException",
+        "RangeException",
+        "UnderflowException",
+        "UnexpectedValueException",
+        "ReflectionException",
+        "SoapFault",
+        "PDOException",
+        "PharException",
+        "mysqli_sql_exception",
+    ]
+}

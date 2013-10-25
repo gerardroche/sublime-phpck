@@ -1,0 +1,19 @@
+{
+    "scope": "source.php entity.other.inherited-class, source.php meta.function.argument.typehinted.php support.class",
+    "completions": [
+        "Traversable",
+        "IteratorAggregate",
+        "Iterator",
+        "ArrayAccess",
+        "Serializable",
+        "RecursiveIterator",
+        "OuterIterator",
+        "Countable",
+        "SeekableIterator",
+        "SplObserver",
+        "SplSubject",
+        "JsonSerializable",
+        "Reflector",
+        "SessionHandlerInterface",
+    ]
+}

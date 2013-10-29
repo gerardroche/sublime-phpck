@@ -1,5 +1,5 @@
 {
-    "scope": "source.php support.class - meta.function.argument.typehinted",
+    "scope": "source.php support.class - meta.function.argument.typehinted - meta.catch",
     "completions": [
         "stdClass()",
         {"trigger":"Exception()","contents":"Exception(${1:message}${2:, ${3:code}${4:, ${5:previous}}})"},

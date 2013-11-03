@@ -3,8 +3,8 @@ Sublime PHP Completions Kit
 
 Provides completions for PHP 5.4.
 
-Removing the Sublime Text default PHP completions
--------------------------------------------------
+Removing Sublime Text default PHP completions
+---------------------------------------------
 
 > **Overriding Files From a Zipped Package**
 >

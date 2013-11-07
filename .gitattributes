@@ -1,0 +1,8 @@
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+* text=auto
+
+# Files and directories to ignore when exporting using git archive
+.gitattributes              export-ignore
+.gitignore                  export-ignore
+.gitmodules                 export-ignore

@@ -3,29 +3,21 @@ Sublime PHP Completions Kit
 
 Provides completions for PHP 5.4.
 
-Removing Sublime Text default PHP completions
+Removing Sublime Text Default PHP completions
 ---------------------------------------------
 
-> **Overriding Files From a Zipped Package**
->
-> To override a file in an existing package, just create a file with the same
-> name under the `Packages/<Package Name>` directory.
->
-> For example to override the file `function.sublime-snippet` in the
-> `Python.sublime-package` package that ships with Sublime Text, create a
-> directory called `Python` under the `<data_path>/Packages` directory, and
-> place your `function.sublime-snippet` file there.
->
-> - http://www.sublimetext.com/docs/3/packages.html
+The PHP Completions Kit contain some similar completions that are provided by
+the Sublime Text default PHP package. You may want to remove the default PHP
+package completions. You can do this by overriding the defaults:
 
 1. Locate your Sublime Text `Packages` directory by using the menu item
-   `Preferences -> Browse Packages...`
+   `Preferences -> Browse Packages...`.
 2. Create a directory named `PHP`
-3. Create a file named `PHP.sublime-completions` in the `PHP` directory
-4. Done!
+3. Create a file named `PHP.sublime-completions` inside the `PHP` directory
 
-The blank file you create, `PHP/PHP.sublime-completions`, overrides the default
-`PHP/PHP.sublime-completions`. *Doing this stops them from being loaded.*
+Done!
+
+For more information see [Overriding Files from a Zip Package](http://www.sublimetext.com/docs/3/packages.html).
 
 Installation
 ------------

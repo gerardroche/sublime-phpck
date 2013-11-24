@@ -1,5 +1,5 @@
 {
-    "scope": "source.php entity.other.inherited-class - meta.interface, source.php meta.function.argument.typehinted support.class",
+    "scope": "source.php entity.other.inherited-class - meta.interface, source.php meta.function.argument.typehinted support.class, source.php meta.function.arguments",
     "completions": [
         "stdClass",
         "Closure",

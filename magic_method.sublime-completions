@@ -14,6 +14,6 @@
         "__sleep()",
         "__toString()",
         {"trigger":"__unset()","contents":"__unset(${1:name})"},
-        "__wakeup()",
+        "__wakeup()"
     ]
 }

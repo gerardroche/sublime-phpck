@@ -8,6 +8,6 @@
         "__CLASS__",
         "__TRAIT__",
         "__METHOD__",
-        "__NAMESPACE__",
+        "__NAMESPACE__"
     ]
 }

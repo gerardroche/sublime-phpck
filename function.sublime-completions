@@ -1608,6 +1608,6 @@
         "xdebug_get_code_coverage()",
         "xdebug_get_function_count()",
         "xdebug_dump_superglobals()",
-        "xdebug_get_headers()",
+        "xdebug_get_headers()"
     ]
 }

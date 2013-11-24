@@ -21,6 +21,6 @@
         "SoapFault",
         "PDOException",
         "PharException",
-        "mysqli_sql_exception",
+        "mysqli_sql_exception"
     ]
 }

@@ -17,6 +17,6 @@
         {"trigger":"mysql_list_dbs() [DEPRECATED]","contents":"mysql_list_dbs(${1:link_identifier})"},
         {"trigger":"mysql_list_tables() [DEPRECATED]","contents":"mysql_list_tables(${1:database_name}${2:, ${3:link_identifier}})"},
         {"trigger":"mysql_listtables() [DEPRECATED]","contents":"mysql_listtables(${1:database_name}${2:, ${3:link_identifier}})"},
-        {"trigger":"mcrypt_generic_end() [DEPRECATED]","contents":"mcrypt_generic_end(${1:td})"},
+        {"trigger":"mcrypt_generic_end() [DEPRECATED]","contents":"mcrypt_generic_end(${1:td})"}
     ]
 }

@@ -133,6 +133,6 @@
         "mysqli_driver()",
         {"trigger":"mysqli()","contents":"mysqli(${1:host}${2:, ${3:user}${4:, ${5:password}${6:, ${7:database}${8:, ${9:port}${10:, ${11:socket}}}}}})"},
         "mysqli_result()",
-        "mysqli_stmt()",
+        "mysqli_stmt()"
     ]
 }

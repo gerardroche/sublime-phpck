@@ -119,6 +119,6 @@
         "mysqli",
         "mysqli_warning",
         "mysqli_result",
-        "mysqli_stmt",
+        "mysqli_stmt"
     ]
 }

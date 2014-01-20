@@ -122,6 +122,8 @@
         "mysqli_stmt",
         "SQLite3",
         "SQLite3Stmt",
-        "SQLite3Result"
+        "SQLite3Result",
+        "tidy",
+        "tidyNode"
     ]
 }

@@ -29,42 +29,49 @@ For more information see [Overriding Files from a Zip Package].
 
 [Overriding Files from a Zip Package]: http://www.sublimetext.com/docs/3/packages.html
 
-Features
---------
+Usage & Features
+----------------
 
-The provided completions try to be context specific and trigger only when
-relevant. Some examples:
+These completions try to be as context specific as is possible and trigger
+*only* when relevant.
 
-The `new` keyword triggers **instantiable** classes and exceptions
+`$...` in function prototypes means and so on. This variable name is used when
+a function can take an endless number of arguments.
 
-    new Date|
+Instantiables
+
+    new Date|                               <-- triggers intiantiable classes and exceptions
         DateTime()
         DateInterval()
-        DatePeriod()
-        DateTimeZone()
+        ...
 
-"Hintables" (classes, interfaces, and exceptions) trigger under several
-contexts e.g. after the `extends` keyword and inside `function` arguments:
+Inheritance / Type Hints
 
-    class name extends Date|
-                       DateTime
-                       DateInterval
-                       DatePeriod
-                       DateTimeZone
+    class name extends Date|                <-- triggers classes and exceptions
 
-    function name(Date|
-                  DateTime
-                  DateInterval
-                  DatePeriod
-                  DateTimeZone
+    class name implements Count|            <-- triggers interfaces
 
-Exception type hints, *alone*, are triggered in `try` `catch` blocks:
+    interface name extends Count|           <-- triggers interfaces
+
+    function name(Date|                     <-- triggers classes, interfaces, and exceptions
+
+    class name
+    {
+        public function name(Date|          <-- triggers classes, interfaces, and exceptions
+
+    ... instanceof Date|                    <-- triggers classes, interfaces, and exceptions
 
     try {
-        // ...
-    } catch (Out|
+      // ...
+    } catch (Out|                           <-- triggers exeptions
              OutOfRangeException
              OutOfBoundsException
+             ...
+
+    /**
+     * @param Date|                         <-- triggers classes, interfaces, and exceptions
+     * @return Date|                        <-- triggers classes, interfaces, and exceptions
+     */
 
 Installation
 ------------

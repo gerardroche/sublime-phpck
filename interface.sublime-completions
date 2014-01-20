@@ -1,5 +1,5 @@
 {
-    "scope": "source.php entity.other.inherited-class, source.php meta.function.argument.typehinted.php support.class",
+    "scope": "source.php entity.other.inherited-class, source.php meta.function.argument.typehinted.php support.class, source.php comment.block.documentation.phpdoc",
     "completions": [
         "ArrayAccess",
         "Countable",

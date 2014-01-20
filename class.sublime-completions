@@ -119,6 +119,9 @@
         "mysqli",
         "mysqli_warning",
         "mysqli_result",
-        "mysqli_stmt"
+        "mysqli_stmt",
+        "SQLite3",
+        "SQLite3Stmt",
+        "SQLite3Result"
     ]
 }

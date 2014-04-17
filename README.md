@@ -1,94 +1,149 @@
 Sublime PHP Completions Kit
 ===========================
 
-Provides completions for PHP 5.4, includes:
+Provides PHP 5.4 completions for [Sublime Text][st].
 
-* classes
-* interfaces
-* exceptions
-* functions
-* constants
-* magic constants
-* magic methods
+> Auto complete shows the completion popup as you type, so you can fill in long
+> words by typing only a few characters. [Sublime Text Documentation][st3autocompledocs]
 
-Removing Sublime Text Default PHP Completions
----------------------------------------------
-
-The PHP Completions Kit contains some similar completions that are provided by
-the Sublime Text default PHP package. You may want to remove these completions,
-you can do this by overriding them:
-
-1. Locate your Sublime Text `Packages` directory by using the menu item
-  `Preferences -> Browse Packages...`
-2. Create a directory named `PHP`
-3. Create a file named `PHP.sublime-completions` inside the `PHP` directory
-
-Done!
-
-For more information see [Overriding Files from a Zip Package].
-
-[Overriding Files from a Zip Package]: http://www.sublimetext.com/docs/3/packages.html
+[st3autocompledocs]: http://www.sublimetext.com/docs/3/auto_complete.html
+[st]: http://www.sublimetext.com
 
 Usage & Features
 ----------------
 
-These completions try to be as context specific as is possible and trigger
-*only* when relevant.
+Completions include constants, magic contsants, functions, classes, interfaces,
+exceptions, and magic methods.
 
-`$...` in function prototypes means and so on. This variable name is used when
-a function can take an endless number of arguments.
+### Function arguments
+
+You can cycle through argument fields by pressing the <kbd>Tab</kbd> key.  To
+break out of a field cycle at any time press <kbd>Esc</kbd>.
+
+**Optional fields** are *group selected* meaning you can skip any remaining
+optional fields at any time by deleting them i.e. by pressing <kbd>DEL</kbd>
+, then break out of the field cycle by pressing <kbd>ESC</kbd>.
+
+*(To break out of a field cycle after deleting fields, you can also press
+<kbd>TAB</kbd> continuously until the end of the field cycle)*
+
+**Example**
+
+The [`array_keys`][phpdocs_array_keys] function has two optional arguments,
+`search_value` and `strict`.
+
+    array_keys(arg, search_value, strict)
+
+When you first commit the completion you will get:
+
+         current selection
+               vvv
+    array_keys(arg, search_value, strict)
+
+After you fill in `arg` press <kbd>TAB</kbd> and you get:
+
+                              current selection
+                           vvvvvvvvvvvvvvvvvvvvvv
+    array_keys(array(1,2,3), search_value, strict)
+
+Notice the comma is under current selection.  This is because the last two
+arguments are optional.  This gives you a chance to skip the remaining fields by
+pressing <kbd>DEL</kbd> then <kbd>ESC</kbd>.  However, if you want the next
+optional field then press <kbd>TAB</kbd> again and you get:
+
+                           current selection
+                             vvvvvvvvvvvv
+    array_keys(array(1,2,3), search_value, strict)
+
+Now fill in the `search_value` and press <kbd>TAB</kbd>:
+
+                           current selection
+                              vvvvvvvv
+    array_keys(array(1,2,3), 2, strict)
+
+If you don't want *this* optional field, press <kbd>DEL</kbd> then
+<kbd>ESC</kbd>.  However, if you *do* want it, press <kbd>TAB</kbd>:
+
+                            current selection
+                                vvvvvv
+    array_keys(array(1,2,3), 2, strict)
+
+[phpdocs_array_keys]: http://php.net/array_keys
+
+### Context Specific
+
+The completions are context specific, they should trigger *only* in relevant
+contexts.
+
+**Examples**
+
+*The pipe character `|` denotes the cursor position when completions are
+triggered.*
 
 Instantiables
 
-    new Date|                               <-- triggers intiantiable classes and exceptions
-        DateTime()
-        DateInterval()
-        ...
+    new |                       triggers classes/exceptions
 
-Inheritance / Type Hints
+Inheritance
 
-    class name extends Date|                <-- triggers classes and exceptions
+    class name extends |        triggers classes/exceptions
+    class name implements |     triggers interfaces
+    interface name extends |    triggers interfaces
 
-    class name implements Count|            <-- triggers interfaces
+Type hints
 
-    interface name extends Count|           <-- triggers interfaces
-
-    function name(Date|                     <-- triggers classes, interfaces, and exceptions
+    function name(|             triggers classes/interfaces/exceptions
+    ... instanceof |            triggers classes/interfaces/exceptions
 
     class name
     {
-        public function name(Date|          <-- triggers classes, interfaces, and exceptions
-
-    ... instanceof Date|                    <-- triggers classes, interfaces, and exceptions
+        public function name(|  triggers classes/interfaces/exceptions
 
     try {
       // ...
-    } catch (Out|                           <-- triggers exeptions
-             OutOfRangeException
-             OutOfBoundsException
-             ...
+    } catch (|                  triggers exeptions
+
+PHPDoc
 
     /**
-     * @param Date|                         <-- triggers classes, interfaces, and exceptions
-     * @return Date|                        <-- triggers classes, interfaces, and exceptions
+     * @param |                 triggers classes/interfaces/exceptions
+     * @return |                triggers classes/interfaces/exceptions
      */
+
+### Removing the default PHP completions
+
+You may want to remove the default PHP completions provided by Sublime Text
+because they cause duplicate completions.
+
+The only way I know how to fix this is by overriding the defaults.
+
+1. Locate your Sublime Text `Packages` directory by using the menu item
+`Preferences -> Browse Packages...`
+2. Create a directory named `PHP`
+3. Create an empty file named `PHP.sublime-completions` inside the `PHP`
+directory
+
+For more information read [overriding files from a zip package].
+
+[overriding files from a zip package]: http://www.sublimetext.com/docs/3/packages.html
 
 Installation
 ------------
 
-The recommended way to install and keep up to date is to install it via
-[Package Control]. Once you have installed Package Control, open it via
-`Preferences -> Package Control` and click on
-`Package Control: Install Package`. Type `PHP Completions Kit` into the search
-box, then hit enter or click on the result to install.
+### Using [Package Control]
+
+1. Open Package Control: `Preferences -> Package Control`
+2. Select `Package Control: Install Package`
+3. Type `PHP Completions Kit` into the search box and select the package to
+install it.
 
 [Package Control]: https://sublime.wbond.net/installation
 
 ### Using Git
 
 Alternatively, if you are a git user, you can install the completions and keep
-up to date by cloning the repository directly into your `Packages` directory
-in the Sublime Text application settings area.
+up to date by cloning the repository directly into your `Packages` directory in
+the Sublime Text application settings area.
 
 You can locate your Sublime Text `Packages` directory by using the menu item
 `Preferences -> Browse Packages...`.
@@ -98,10 +153,10 @@ below:
 
     git clone https://github.com/gerardroche/sublime-phpck.git
 
-### Download Manually
+### Download manually
 
 1. Download the files using the GitHub .zip download option
 2. Unzip the files and rename the folder to `sublime-phpck`
 3. Find your `Packages` directory using the menu item
-  `Preferences -> Browse Packages...`
+`Preferences -> Browse Packages...`
 4. Copy the folder into your Sublime Text `Packages` directory

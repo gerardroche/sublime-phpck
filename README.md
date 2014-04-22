@@ -12,8 +12,10 @@ Provides PHP 5.5 completions for [Sublime Text][st].
 Usage & Features
 ----------------
 
-Completions include constants, magic contsants, functions, classes, interfaces,
-exceptions, and magic methods.
+Completions include [language constructs], constants, magic constants,
+functions, classes, interfaces, exceptions, and magic methods.
+
+[language constructs]: http://php.net/manual/reserved.keywords.php
 
 ### Function arguments
 

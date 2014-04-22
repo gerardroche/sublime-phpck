@@ -3,10 +3,9 @@ Sublime PHP Completions Kit
 
 Provides PHP 5.5 completions for [Sublime Text][st].
 
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. [Sublime Text Documentation][st3autocompledocs]
+> [Auto complete shows the completion popup as you type, so you can fill in long
+> words by typing only a few characters.](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-[st3autocompledocs]: http://www.sublimetext.com/docs/3/auto_complete.html
 [st]: http://www.sublimetext.com
 
 Usage & Features
@@ -26,8 +25,8 @@ break out of a field cycle at any time press <kbd>Esc</kbd>.
 optional fields at any time by deleting them i.e. by pressing <kbd>DEL</kbd>
 , then break out of the field cycle by pressing <kbd>ESC</kbd>.
 
-*(To break out of a field cycle after deleting fields, you can also press
-<kbd>TAB</kbd> continuously until the end of the field cycle)*
+*To break out of a field cycle after deleting fields, you can also press
+<kbd>TAB</kbd> continuously until the end of the field cycle.*
 
 **Example**
 
@@ -141,24 +140,20 @@ install it.
 
 [Package Control]: https://sublime.wbond.net/installation
 
-### Using Git
+### Using [Git]
 
-Alternatively, if you are a git user, you can install the completions and keep
-up to date by cloning the repository directly into your `Packages` directory in
-the Sublime Text application settings area.
+Clone directly into your Sublime Text `Packages` directory.
 
-You can locate your Sublime Text `Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.
+*Locate your `Packages` directory by using the menu item
+`Preferences -> Browse Packages...`.*
 
-While inside the `Packages` directory, clone the repository using the command
-below:
+[Git]: http://git-scm.com
 
-    git clone https://github.com/gerardroche/sublime-phpck.git
+### [Manual]
 
-### Download manually
+1. [Download a Sublime PHP Completions Kit release from GitHub]
+2. Unzip it and copy it to your Sublime Text `Packages` directory. *Find your
+`Packages` directory by clicking the `Preferences -> Browse Packages...` menu*
 
-1. Download the files using the GitHub .zip download option
-2. Unzip the files and rename the folder to `sublime-phpck`
-3. Find your `Packages` directory using the menu item
-`Preferences -> Browse Packages...`
-4. Copy the folder into your Sublime Text `Packages` directory
+[Manual]: http://www.sublimetext.com/docs/3/packages.html
+[Download a Sublime PHP Completions Kit release from GitHub]: https://github.com/gerardroche/sublime-phpck/releases

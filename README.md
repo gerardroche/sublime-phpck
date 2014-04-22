@@ -116,7 +116,7 @@ PHPDoc
 You may want to remove the default PHP completions provided by Sublime Text
 because they cause duplicate completions.
 
-The only way I know how to fix this is by overriding the defaults.
+The only way I know how to fix this is by [overriding the defaults].
 
 1. Locate your Sublime Text `Packages` directory by using the menu item
 `Preferences -> Browse Packages...`
@@ -124,9 +124,7 @@ The only way I know how to fix this is by overriding the defaults.
 3. Create an empty file named `PHP.sublime-completions` inside the `PHP`
 directory
 
-For more information read [overriding files from a zip package].
-
-[overriding files from a zip package]: http://www.sublimetext.com/docs/3/packages.html
+[overriding the defaults]: http://www.sublimetext.com/docs/3/packages.html
 
 Installation
 ------------
@@ -136,7 +134,7 @@ Installation
 1. Open Package Control: `Preferences -> Package Control`
 2. Select `Package Control: Install Package`
 3. Type `PHP Completions Kit` into the search box and select the package to
-install it.
+install it
 
 [Package Control]: https://sublime.wbond.net/installation
 
@@ -151,9 +149,11 @@ Clone directly into your Sublime Text `Packages` directory.
 
 ### [Manual]
 
-1. [Download a Sublime PHP Completions Kit release from GitHub]
-2. Unzip it and copy it to your Sublime Text `Packages` directory. *Find your
-`Packages` directory by clicking the `Preferences -> Browse Packages...` menu*
+1. [Download a release from GitHub]
+2. Unzip it and copy it to your Sublime Text `Packages` directory
+
+*Locate your `Packages` directory by using the menu item
+`Preferences -> Browse Packages...`.*
 
 [Manual]: http://www.sublimetext.com/docs/3/packages.html
-[Download a Sublime PHP Completions Kit release from GitHub]: https://github.com/gerardroche/sublime-phpck/releases
+[Download a release from GitHub]: https://github.com/gerardroche/sublime-phpck/releases

@@ -1,21 +1,21 @@
 {
     "scope": "source.php entity.other.inherited-class, source.php meta.function.argument.typehinted.php support.class, source.php comment.block.documentation.phpdoc",
     "completions": [
-        "ArrayAccess",
-        "Countable",
-        "DateTimeInterface",
-        "Iterator",
-        "IteratorAggregate",
-        "JsonSerializable",
-        "OuterIterator",
-        "RecursiveIterator",
-        "Reflector",
-        "SeekableIterator",
-        "Serializable",
-        "SessionHandlerInterface",
-        "SessionIdInterface",
-        "SplObserver",
-        "SplSubject",
-        "Traversable"
+        {"trigger":"ArrayAccess\tinterface","contents":"ArrayAccess"},
+        {"trigger":"Countable\tinterface","contents":"Countable"},
+        {"trigger":"DateTimeInterface\tinterface","contents":"DateTimeInterface"},
+        {"trigger":"Iterator\tinterface","contents":"Iterator"},
+        {"trigger":"IteratorAggregate\tinterface","contents":"IteratorAggregate"},
+        {"trigger":"JsonSerializable\tinterface","contents":"JsonSerializable"},
+        {"trigger":"OuterIterator\tinterface","contents":"OuterIterator"},
+        {"trigger":"RecursiveIterator\tinterface","contents":"RecursiveIterator"},
+        {"trigger":"Reflector\tinterface","contents":"Reflector"},
+        {"trigger":"SeekableIterator\tinterface","contents":"SeekableIterator"},
+        {"trigger":"Serializable\tinterface","contents":"Serializable"},
+        {"trigger":"SessionHandlerInterface\tinterface","contents":"SessionHandlerInterface"},
+        {"trigger":"SessionIdInterface\tinterface","contents":"SessionIdInterface"},
+        {"trigger":"SplObserver\tinterface","contents":"SplObserver"},
+        {"trigger":"SplSubject\tinterface","contents":"SplSubject"},
+        {"trigger":"Traversable\tinterface","contents":"Traversable"}
     ]
 }

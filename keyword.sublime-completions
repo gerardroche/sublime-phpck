@@ -1,5 +1,5 @@
 {
-    "scope": "source.php - meta",
+    "scope": "source.php",
     "completions": [
         {"trigger":"__halt_compiler()\tLanguage Construct","contents":"__halt_compiler(${1})"},
         {"trigger":"abstract \tLanguage Construct","contents":"abstract "},

@@ -1,19 +1,19 @@
 {
     "scope": "source.php support.function.magic, source.php constant.other",
     "completions": [
-        {"trigger":"__call()","contents":"__call(${1:name}, ${2:arguments})"},
-        {"trigger":"__callStatic()","contents":"__callStatic(${1:name}, ${2:arguments})"},
-        "__clone()",
-        {"trigger":"__construct()","contents":"__construct(${1:___ = null})"},
-        "__destruct()",
-        {"trigger":"__get()","contents":"__get(${1:name})"},
-        {"trigger":"__invoke()","contents":"__invoke(${1:___ = null})"},
-        {"trigger":"__isset()","contents":"__isset(${1:name})"},
-        {"trigger":"__set()","contents":"__set(${1:name}, ${2:value})"},
-        {"trigger":"__set_state()","contents":"__set_state(${1:(array) properties})"},
-        "__sleep()",
-        "__toString()",
-        {"trigger":"__unset()","contents":"__unset(${1:name})"},
-        "__wakeup()"
+        {"trigger":"__call()\tMagic Method","contents":"__call(${1:name}, ${2:arguments})"},
+        {"trigger":"__callStatic()\tMagic Method","contents":"__callStatic(${1:name}, ${2:arguments})"},
+        {"trigger":"__clone()\tMagic Method","contents":"__clone()"},
+        {"trigger":"__construct()\tMagic Method","contents":"__construct(${1:___ = null})"},
+        {"trigger":"__destruct()\tMagic Method","contents":"__destruct()"},
+        {"trigger":"__get()\tMagic Method","contents":"__get(${1:name})"},
+        {"trigger":"__invoke()\tMagic Method","contents":"__invoke(${1:___ = null})"},
+        {"trigger":"__isset()\tMagic Method","contents":"__isset(${1:name})"},
+        {"trigger":"__set()\tMagic Method","contents":"__set(${1:name}, ${2:value})"},
+        {"trigger":"__set_state()\tMagic Method","contents":"__set_state(${1:(array) properties})"},
+        {"trigger":"__sleep()\tMagic Method","contents":"__sleep()"},
+        {"trigger":"__toString()\tMagic Method","contents":"__toString()"},
+        {"trigger":"__unset()\tMagic Method","contents":"__unset(${1:name})"},
+        {"trigger":"__wakeup()\tMagic Method","contents":"__wakeup()"}
     ]
 }

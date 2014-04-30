@@ -1,5 +1,5 @@
 {
-    "scope": "source.php support.class.exception, source.php meta.catch",
+    "scope": "source.php support.class.exception, source.php meta.catch, source.php comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"BadFunctionCallException\tSPL Exception","contents":"BadFunctionCallException"},
         {"trigger":"BadMethodCallException\tSPL Exception","contents":"BadMethodCallException"},

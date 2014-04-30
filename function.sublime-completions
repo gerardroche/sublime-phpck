@@ -1,5 +1,5 @@
 {
-    "scope": "source.php constant.other, source.php meta.function-call",
+    "scope": "source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"_()\tgettext Function","contents":"_(${1:msgid})"},
         {"trigger":"abs()\tstandard Function","contents":"abs(${1:number})"},

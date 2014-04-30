@@ -1,5 +1,5 @@
 {
-    "scope": "source.php entity.other.inherited-class - meta.interface, source.php meta.function.argument.typehinted support.class, source.php meta.function.arguments, source.php comment.block.documentation.phpdoc",
+    "scope": "source.php entity.other.inherited-class - meta.interface, source.php meta.function.arguments, source.php comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"__PHP_Incomplete_Class\tstandard Class","contents":"__PHP_Incomplete_Class"},
         {"trigger":"AppendIterator\tSPL Class","contents":"AppendIterator"},

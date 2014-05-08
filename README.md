@@ -112,7 +112,8 @@ PHPDoc
      * @return |                triggers classes/interfaces/exceptions
      */
 
-### Removing the default PHP completions
+Removing the default PHP completions
+------------------------------------
 
 You may want to remove the default PHP completions provided by Sublime Text
 because they cause duplicate completions.

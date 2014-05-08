@@ -1,4 +1,8 @@
 {
+    // scopes:
+    //
+    // source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc
+
     "scope": "source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"_()\tgettext Function","contents":"_(${1:msgid})"},

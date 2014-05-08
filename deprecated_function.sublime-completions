@@ -1,4 +1,8 @@
 {
+    // scopes:
+    //
+    // source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc
+
     "scope": "source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"call_user_method()\tdeprecated standard Function","contents":"call_user_method(${1:method_name}, ${2:&object}${3:, ${4:parameter}${5:, ${6:...}}})"},

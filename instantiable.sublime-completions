@@ -1,4 +1,8 @@
 {
+    // scopes:
+    //
+    // source.php support.class - meta.function.argument.typehinted - meta.catch
+
     "scope": "source.php support.class - meta.function.argument.typehinted - meta.catch",
     "completions": [
         {"trigger":"__PHP_Incomplete_Class()\tstandard Class","contents":"__PHP_Incomplete_Class()"},

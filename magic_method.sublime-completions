@@ -1,4 +1,9 @@
 {
+    // scopes:
+    //
+    // source.php support.function.magic
+    // source.php constant.other
+
     "scope": "source.php support.function.magic, source.php constant.other",
     "completions": [
         {"trigger":"__call()\tMagic Method","contents":"__call(${1:name}, ${2:arguments})"},

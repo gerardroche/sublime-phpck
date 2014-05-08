@@ -1,4 +1,8 @@
 {
+    // scopes:
+    //
+    // source.php constant.other
+
     "scope": "source.php constant.other",
     "completions": [
         {"trigger":"__CLASS__\tCompile-Time Constant","contents":"__CLASS__"},

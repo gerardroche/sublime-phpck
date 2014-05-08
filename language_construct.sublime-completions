@@ -1,9 +1,9 @@
 {
     // scopes:
     //
-    // source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc
+    // source.php - variable.other - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc
 
-    "scope": "source.php - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc",
+    "scope": "source.php - variable.other - meta.function.arguments - entity.other.inherited-class - meta.catch - comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"__halt_compiler()\tLanguage Construct","contents":"__halt_compiler(${1})"},
         {"trigger":"abstract \tLanguage Construct","contents":"abstract "},

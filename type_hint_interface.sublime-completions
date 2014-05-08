@@ -3,10 +3,10 @@
     //
     // source.php meta.interface entity.other.inherited-class
     // source.php meta.class entity.other.inherited-class
-    // source.php meta.function.arguments
+    // source.php meta.function.arguments - variable.other
     // source.php comment.block.documentation.phpdoc
 
-    "scope": "source.php meta.interface entity.other.inherited-class, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments, source.php comment.block.documentation.phpdoc",
+    "scope": "source.php meta.interface entity.other.inherited-class, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php comment.block.documentation.phpdoc",
     "completions": [
         {"trigger":"ArrayAccess\tCore Interface","contents":"ArrayAccess"},
         {"trigger":"Countable\tSPL Interface","contents":"Countable"},

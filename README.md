@@ -1,21 +1,55 @@
 Sublime PHP Completions Kit
 ===========================
 
-Provides PHP 5.5 completions for [Sublime Text][st].
+Provides PHP 5.5 completions for [Sublime Text](http://www.sublimetext.com).
 
 > Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. &mdash; [Sublime Text Auto-Complete Documentation]
+> words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-[Sublime Text Auto-Complete Documentation]: http://www.sublimetext.com/docs/3/auto_complete.html
-[st]: http://www.sublimetext.com
+Completions include [language constructs], [compile-time constants],
+constants, functions, classes, interfaces, exceptions, and magic-methods.
 
-Usage & Features
-----------------
+All completions activate *only* in valid contexts.
 
-Completions include [language constructs][lc], [compile-time constants][lc],
-constants, functions, classes, interfaces, exceptions, and magic methods.
+[language constructs]: http://php.net/manual/reserved.keywords.php
+[compile-time constants]: http://php.net/manual/reserved.keywords.php
 
-[lc]: http://php.net/manual/reserved.keywords.php
+Usage
+-----
+
+> Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
+> <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
+> currently showing.  If it is showing, it'll select the next item.
+> &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
+
+`[a-zA-Z_]*` activates [language constructs], [compile-time constants],
+functions, constants, etc.
+
+Type hints
+
+`class name extends [a-zA-Z_]*` activates classes and exceptions
+
+`class name implements [a-zA-Z_]*` activates interfaces
+
+`interface name extends [a-zA-Z_]*` activates interfaces
+
+`function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
+
+`... instanceof [a-zA-Z_]*` activates classes, interfaces, and exceptions
+
+`class name { public function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
+
+`try { /* ... */ } catch ([a-zA-Z_]*` activates classes, interfaces, and exceptions
+
+Instantiable classes
+
+`new [a-zA-Z_]*` activates instantiable classes and exceptions
+
+PHPDocs
+
+    /**
+     * @whatever [a-zA-Z_]* // activates classes, interfaces, and exceptions
+     */
 
 ### Function arguments
 
@@ -72,53 +106,13 @@ If you don't want *this* optional field, press <kbd>DEL</kbd> then
 
 [phpdocs_array_keys]: http://php.net/array_keys
 
-### Context Specific
-
-The completions are context specific, they should trigger *only* in relevant
-contexts.
-
-**Examples**
-
-*The pipe character `|` denotes the cursor position when completions are
-triggered.*
-
-Instantiables
-
-    new |                       triggers classes/exceptions
-
-Inheritance
-
-    class name extends |        triggers classes/exceptions
-    class name implements |     triggers interfaces
-    interface name extends |    triggers interfaces
-
-Type hints
-
-    function name(|             triggers classes/interfaces/exceptions
-    ... instanceof |            triggers classes/interfaces/exceptions
-
-    class name
-    {
-        public function name(|  triggers classes/interfaces/exceptions
-
-    try {
-      // ...
-    } catch (|                  triggers exeptions
-
-PHPDoc
-
-    /**
-     * @param |                 triggers classes/interfaces/exceptions
-     * @return |                triggers classes/interfaces/exceptions
-     */
-
-Remove the default PHP completions
-----------------------------------
+How to remove the default PHP completions
+-----------------------------------------
 
 You may want to remove the default PHP completions provided by Sublime Text
 because they cause duplicate completions.
 
-The only way I know how to fix this is by [overriding the defaults].
+The only way I know how to fix this is by [overriding the defaults](http://www.sublimetext.com/docs/3/packages.html).
 
 1. Locate your Sublime Text `Packages` directory by using the menu item
 `Preferences -> Browse Packages...`
@@ -126,36 +120,25 @@ The only way I know how to fix this is by [overriding the defaults].
 3. Create an empty file named `PHP.sublime-completions` inside the `PHP`
 directory
 
-[overriding the defaults]: http://www.sublimetext.com/docs/3/packages.html
-
 Installation
 ------------
 
-### Using [Package Control]
+### [Package Control](https://sublime.wbond.net/installation)
 
 1. Open Package Control: `Preferences -> Package Control`
 2. Select `Package Control: Install Package`
 3. Type `PHP Completions Kit` into the search box and select the package to
 install it
 
-[Package Control]: https://sublime.wbond.net/installation
+### [Git](http://git-scm.com)
 
-### Using [Git]
-
-Clone directly into your Sublime Text `Packages` directory.
-
-*Locate your `Packages` directory by using the menu item
+Clone directly into your Sublime Text `Packages` directory.  *Locate your
+`Packages` directory by using the menu item
 `Preferences -> Browse Packages...`.*
 
-[Git]: http://git-scm.com
+### [Manual](http://www.sublimetext.com/docs/3/packages.html)
 
-### [Manual]
-
-1. [Download a release from GitHub]
-2. Unzip it and copy it to your Sublime Text `Packages` directory
-
-*Locate your `Packages` directory by using the menu item
+1. [Download a release](https://github.com/gerardroche/sublime-phpck/releases)
+2. Unzip and copy it to your Sublime Text `Packages` directory.  *Locate your
+`Packages` directory by using the menu item
 `Preferences -> Browse Packages...`.*
-
-[Manual]: http://www.sublimetext.com/docs/3/packages.html
-[Download a release from GitHub]: https://github.com/gerardroche/sublime-phpck/releases

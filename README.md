@@ -53,15 +53,15 @@ PHPDocs
 
 ### Function arguments
 
-You can cycle through argument fields by pressing the <kbd>Tab</kbd> key.  To
-break out of a field cycle at any time press <kbd>Esc</kbd>.
+You can cycle through argument fields by pressing the <kbd>tab</kbd> key.  To
+break out of a field cycle at any time press <kbd>esc</kbd>.
 
 **Optional fields** are *group selected* meaning you can skip any remaining
-optional fields at any time by deleting them i.e. by pressing <kbd>DEL</kbd>
-, then break out of the field cycle by pressing <kbd>ESC</kbd>.
+optional fields at any time by deleting them i.e. by pressing <kbd>del</kbd>
+, then break out of the field cycle by pressing <kbd>esc</kbd>.
 
 *To break out of a field cycle after deleting fields, you can also press
-<kbd>TAB</kbd> continuously until the end of the field cycle.*
+<kbd>tab</kbd> continuously until the end of the field cycle.*
 
 **Example**
 
@@ -76,7 +76,7 @@ When you first commit the completion you will get:
                vvv
     array_keys(arg, search_value, strict)
 
-After you fill in `arg` press <kbd>TAB</kbd> and you get:
+After you fill in `arg` press <kbd>tab</kbd> and you get:
 
                               current selection
                            vvvvvvvvvvvvvvvvvvvvvv
@@ -84,21 +84,21 @@ After you fill in `arg` press <kbd>TAB</kbd> and you get:
 
 Notice the comma is under current selection.  This is because the last two
 arguments are optional.  This gives you a chance to skip the remaining fields by
-pressing <kbd>DEL</kbd> then <kbd>ESC</kbd>.  However, if you want the next
-optional field then press <kbd>TAB</kbd> again and you get:
+pressing <kbd>del</kbd> then <kbd>esc</kbd>.  However, if you want the next
+optional field then press <kbd>tab</kbd> again and you get:
 
                            current selection
                              vvvvvvvvvvvv
     array_keys(array(1,2,3), search_value, strict)
 
-Now fill in the `search_value` and press <kbd>TAB</kbd>:
+Now fill in the `search_value` and press <kbd>tab</kbd>:
 
                            current selection
                               vvvvvvvv
     array_keys(array(1,2,3), 2, strict)
 
-If you don't want *this* optional field, press <kbd>DEL</kbd> then
-<kbd>ESC</kbd>.  However, if you *do* want it, press <kbd>TAB</kbd>:
+If you don't want *this* optional field, press <kbd>del</kbd> then
+<kbd>esc</kbd>.  However, if you *do* want it, press <kbd>tab</kbd>:
 
                             current selection
                                 vvvvvv

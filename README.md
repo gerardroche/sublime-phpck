@@ -39,7 +39,7 @@ Type hints
 
 `class name { public function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
 
-`try { /* ... */ } catch ([a-zA-Z_]*` activates classes, interfaces, and exceptions
+`try { /* ... */ } catch ([a-zA-Z_]*` activates exceptions
 
 Instantiable classes
 

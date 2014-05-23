@@ -33,9 +33,9 @@ Type hints
 
 `interface name extends [a-zA-Z_]*` activates interfaces
 
-`function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
-
 `... instanceof [a-zA-Z_]*` activates classes, interfaces, and exceptions
+
+`function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
 
 `class name { public function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
 
@@ -48,7 +48,7 @@ Instantiable classes
 PHPDocs
 
     /**
-     * @whatever [a-zA-Z_]* // activates classes, interfaces, and exceptions
+     * @annotation [a-zA-Z_]* activates classes, interfaces, and exceptions
      */
 
 ### Function arguments

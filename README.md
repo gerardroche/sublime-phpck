@@ -9,10 +9,14 @@ Provides PHP 5.5 completions for [Sublime Text](http://www.sublimetext.com).
 Completions include [language constructs], [compile-time constants],
 constants, functions, classes, interfaces, exceptions, and magic-methods.
 
-All completions activate *only* in valid contexts.
-
 [language constructs]: http://php.net/manual/reserved.keywords.php
 [compile-time constants]: http://php.net/manual/reserved.keywords.php
+
+All completions activate *only* in valid contexts.
+
+Other completion kits:
+
+* [Sublime PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
 
 Usage
 -----

@@ -9,10 +9,14 @@ Provides PHP 5.5 completions for [Sublime Text](http://www.sublimetext.com).
 Completions include [language constructs], [compile-time constants],
 constants, functions, classes, interfaces, exceptions, and magic-methods.
 
-All completions activate *only* in valid contexts.
-
 [language constructs]: http://php.net/manual/reserved.keywords.php
 [compile-time constants]: http://php.net/manual/reserved.keywords.php
+
+All completions activate *only* in valid contexts.
+
+Other completion kits:
+
+* [Sublime PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
 
 Usage
 -----
@@ -22,34 +26,32 @@ Usage
 > currently showing.  If it is showing, it'll select the next item.
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
-`[a-zA-Z_]*` activates [language constructs], [compile-time constants],
+`*` activates [language constructs], [compile-time constants],
 functions, constants, etc.
 
 Type hints
 
-`class name extends [a-zA-Z_]*` activates classes and exceptions
+`class name extends *` activates classes and exceptions
 
-`class name implements [a-zA-Z_]*` activates interfaces
+`class name implements *` activates interfaces
 
-`interface name extends [a-zA-Z_]*` activates interfaces
+`interface name extends *` activates interfaces
 
-`... instanceof [a-zA-Z_]*` activates classes, interfaces, and exceptions
+`... instanceof *` activates classes, interfaces, and exceptions
 
-`function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
+`function name(*` activates classes, interfaces, and exceptions
 
-`class name { public function name([a-zA-Z_]*` activates classes, interfaces, and exceptions
+`class name { public function name(*` activates classes, interfaces, and exceptions
 
-`try { /* ... */ } catch ([a-zA-Z_]*` activates exceptions
+`try { /* ... */ } catch (*` activates exceptions
+
+    /**
+     * @annotation * activates classes, interfaces, and exceptions
+     */
 
 Instantiable classes
 
-`new [a-zA-Z_]*` activates instantiable classes and exceptions
-
-PHPDocs
-
-    /**
-     * @annotation [a-zA-Z_]* activates classes, interfaces, and exceptions
-     */
+`new *` activates instantiable classes and exceptions
 
 ### Function arguments
 

@@ -1113,6 +1113,7 @@
         {"trigger":"opcache_get_configuration()\tZend OPcache Function","contents":"opcache_get_configuration()"},
         {"trigger":"opcache_get_status()\tZend OPcache Function","contents":"opcache_get_status(${1:fetch_scripts})"},
         {"trigger":"opcache_invalidate()\tZend OPcache Function","contents":"opcache_invalidate(${1:script}${2:, ${3:force}})"},
+        {"trigger":"opcache_is_script_cached()\tZend OPcache Function","contents":"opcache_is_script_cached(${1:script})"},
         {"trigger":"opcache_reset()\tZend OPcache Function","contents":"opcache_reset()"},
         {"trigger":"opendir()\tstandard Function","contents":"opendir(${1:path}${2:, ${3:context}})"},
         {"trigger":"openlog()\tstandard Function","contents":"openlog(${1:ident}, ${2:option}, ${3:facility})"},

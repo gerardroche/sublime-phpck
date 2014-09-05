@@ -5,7 +5,7 @@
 
     "scope": "source.php - variable.other - meta.function.arguments - support.class - entity.other.inherited-class - meta.use - meta.catch - comment.block.documentation.phpdoc",
     "completions": [
-        {"trigger":"call_user_method()\tdeprecated standard Function","contents":"call_user_method(${1:method_name}, ${2:&object}${3:, ${4:parameter}${5:, ${6:...}}})"},
+        {"trigger":"call_user_method()\tdeprecated standard Function","contents":"call_user_method(${1:method_name}, ${2:&object}${3:, ${4:parameters}})"},
         {"trigger":"call_user_method_array()\tdeprecated standard Function","contents":"call_user_method_array(${1:method_name}, ${2:&object}, ${3:params})"},
         {"trigger":"ereg()\tdeprecated ereg Function","contents":"ereg(${1:pattern}, ${2:string}${3:, ${4:&registers}})"},
         {"trigger":"ereg_replace()\tdeprecated ereg Function","contents":"ereg_replace(${1:pattern}, ${2:replacement}, ${3:string})"},

@@ -1,7 +1,7 @@
 Sublime PHP Completions Kit
 ===========================
 
-Provides PHP 5.6.0 completions for [Sublime Text](http://www.sublimetext.com).
+Provides PHP 5.6 completions for [Sublime Text](http://www.sublimetext.com).
 
 > Auto complete shows the completion popup as you type, so you can fill in long
 > words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)

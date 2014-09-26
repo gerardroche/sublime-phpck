@@ -16,7 +16,7 @@ All completions activate *only* in valid contexts.
 
 Other completion kits:
 
-* [Sublime PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
 
 Usage
 -----

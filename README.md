@@ -9,7 +9,7 @@ constants, functions, classes, interfaces, exceptions, and magic-methods.
 [language constructs]: http://php.net/manual/reserved.keywords.php
 [compile-time constants]: http://php.net/manual/reserved.keywords.php
 
-Extensions
+Extensions include:
 
  - bcmath
  - bz2

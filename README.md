@@ -1,10 +1,7 @@
 Sublime PHP Completions Kit
 ===========================
 
-Provides PHP 5.6.0 completions for [Sublime Text](http://www.sublimetext.com).
-
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
+Provides PHP 5.6 completions for [Sublime Text](http://www.sublimetext.com).
 
 Completions include [language constructs], [compile-time constants],
 constants, functions, classes, interfaces, exceptions, and magic-methods.
@@ -12,18 +9,82 @@ constants, functions, classes, interfaces, exceptions, and magic-methods.
 [language constructs]: http://php.net/manual/reserved.keywords.php
 [compile-time constants]: http://php.net/manual/reserved.keywords.php
 
+Extensions include:
+
+ - bcmath
+ - bz2
+ - calendar
+ - Core
+ - ctype
+ - curl
+ - date
+ - dom
+ - ereg
+ - exif
+ - fileinfo
+ - filter
+ - ftp
+ - gd
+ - gettext
+ - hash
+ - iconv
+ - intl
+ - json
+ - libxml
+ - mbstring
+ - mcrypt
+ - mhash
+ - mysql
+ - mysqli
+ - mysqlnd
+ - openssl
+ - pcntl
+ - pcre
+ - PDO
+ - pdo_mysql
+ - pdo_sqlite
+ - Phar
+ - posix
+ - readline
+ - Reflection
+ - session
+ - shmop
+ - SimpleXML
+ - soap
+ - sockets
+ - SPL
+ - sqlite3
+ - standard
+ - sysvmsg
+ - sysvsem
+ - sysvshm
+ - tidy
+ - tokenizer
+ - wddx
+ - xdebug
+ - xml
+ - xmlreader
+ - xmlwriter
+ - Zend OPcache
+ - zip
+ - zlib
+
 All completions activate *only* in valid contexts.
 
 Other completion kits:
 
-* [Sublime PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Completions Kit](https://github.com/gerardroche/sublime-phpunitck)
 
 Usage
 -----
 
+> Auto complete shows the completion popup as you type, so you can fill in long
+> words by typing only a few characters.
+>
 > Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
 > <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
 > currently showing.  If it is showing, it'll select the next item.
+>
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
 `*` activates [language constructs], [compile-time constants],

@@ -4,25 +4,29 @@
 # operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile ~/.gitignore_global
 
-/tmp
+tmp
 
-# Vim
-*.swp
-*.swo
+# VIM
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
 Session.vim
 .netrwhist
 *~
 
 # Sublime Text
-/*.sublime-workspace
+*.sublime-workspace
 
 # Netbeans IDE
-/nbproject
+nbproject
 
 # Eclipse IDE
-/.buildpath
-/.project
-/.settings
+.buildpath
+.project
+.settings/
 
 # Notepad++
-/nppBackup
+nppBackup
+
+# ctags
+tags

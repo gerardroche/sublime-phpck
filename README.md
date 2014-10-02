@@ -3,9 +3,6 @@ Sublime PHP Completions Kit
 
 Provides PHP 5.6 completions for [Sublime Text](http://www.sublimetext.com).
 
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters. &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
-
 Completions include [language constructs], [compile-time constants],
 constants, functions, classes, interfaces, exceptions, and magic-methods.
 
@@ -81,9 +78,13 @@ Other completion kits:
 Usage
 -----
 
+> Auto complete shows the completion popup as you type, so you can fill in long
+> words by typing only a few characters.
+>
 > Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
 > <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
 > currently showing.  If it is showing, it'll select the next item.
+>
 > &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
 
 `*` activates [language constructs], [compile-time constants],

@@ -20,11 +20,14 @@ Extensions include:
 
 All completions activate *only* in valid contexts.
 
-Other PHP packages:
+Other PHP packages
+------------------
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
 * [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
 * [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 Usage
 -----

@@ -20,6 +20,11 @@ Extensions include:
 
 All completions activate *only* in valid contexts.
 
+Changelog
+---------
+
+See [CHANGELOG](CHANGELOG.md).
+
 Other PHP packages
 ------------------
 

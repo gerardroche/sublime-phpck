@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+0.5.2
+-----
+
+- Fixed Functions and language constructs should not trigger in a comment context fd0346e43e12cc4ed85b81366ff123d9914b72e6
+- Added Simplified magic method __construct and __invoke argument fields c29906a4c633f648faadbb981a9de445ed4df9b8
+
 0.5.1
 -----
 

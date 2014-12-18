@@ -1,0 +1,5 @@
+PHP Completions 0.3.0
+=====================
+
+- Fixed Missing license: Added BSD (3-Clause) http://choosealicense.com/licenses/#bsd-3 59ec139
+- Updated completions to PHP version 5.5.11 b0fa88a

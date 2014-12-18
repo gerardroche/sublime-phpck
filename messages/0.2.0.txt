@@ -1,0 +1,7 @@
+PHP Completions 0.2.0
+=====================
+
+- Fixed Type hint completions should trigger in PHPDoc context eeb454e
+- Added CURL extension completions 71d848a
+- Added Tidy extension completions e2abbee
+- Added SQLite version 3 databases extension completions 4cddf83

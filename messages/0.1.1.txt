@@ -1,0 +1,7 @@
+PHP Completions 0.1.1
+=====================
+
+- Fixed Type hint completions should trigger in function argument context c1d9d19
+- Fixed Deprecated function descriptions should be right-aligned de7346e
+- Fixed #1 Error Loading Completions; Only affects Sublime Text 2
+- Fixed instantiable class completions should not trigger in exception catch blocks 27b885f

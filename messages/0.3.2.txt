@@ -1,0 +1,6 @@
+PHP Completions 0.3.2
+=====================
+
+- Fixed Magic method completions were not working in some contexts 6c299d1
+- Fixed Keyword completions were not working in some contexts c6ef3d2
+- Fixed Compile-time constant missing descriptions 3d9b8fc

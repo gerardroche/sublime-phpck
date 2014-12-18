@@ -1,0 +1,4 @@
+PHP Completions 0.3.7
+=====================
+
+- Fixed Functions should not trigger in a ckass instantiation context f3c334e

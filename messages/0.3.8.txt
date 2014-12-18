@@ -1,0 +1,4 @@
+PHP Completions 0.3.8
+=====================
+
+- Fixed `use |` was not triggering type hints fc1791e 76666a0

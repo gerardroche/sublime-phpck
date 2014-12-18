@@ -1,0 +1,11 @@
+PHP Completions 0.3.3
+=====================
+
+- Fixed functions and language constructs should not be triggered in PHPDoc or inheritance contexts bd0bc3c 699fd2c e5dd12d
+- Fixed Exception type hints were not triggering in an inheritance context bac45cc
+- Fixed Exception type hints were not trigging in a PHPDoc context b4d0365
+- Fixed Interfaces were not triggering in function argument type hint context 2ca2696
+- Fixed Class, interface, and exception completions were missing descriptions 3c0c8cb
+- Fixed Magic method completions were missing descriptions 10e9451
+- Added Extension name to descriptions fbe93f1
+

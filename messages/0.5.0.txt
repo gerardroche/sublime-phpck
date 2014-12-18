@@ -1,0 +1,4 @@
+PHP Completions 0.5.0
+=====================
+
+- Updated completions to PHP version 5.6.0 ee77ec4

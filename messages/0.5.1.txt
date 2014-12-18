@@ -1,0 +1,4 @@
+PHP Completions 0.5.1
+=====================
+
+- Fixed Completions should not trigger in a string context Merge pull request #6 from MattDMo/master

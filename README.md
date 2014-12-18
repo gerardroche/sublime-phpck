@@ -1,7 +1,8 @@
 Sublime PHP Completions Kit
 ===========================
 
-Provides PHP [~5.6](http://semver.org) completions for [Sublime Text](http://www.sublimetext.com).
+Provides PHP [~5.6](http://semver.org) completions for
+[Sublime Text](http://www.sublimetext.com).
 
 Completions include [language constructs], [compile-time constants],
 constants, functions, classes, interfaces, exceptions, and magic-methods.
@@ -20,13 +21,11 @@ Extensions include:
 
 All completions activate *only* in valid contexts.
 
-Changelog
----------
+## Changelog
 
 See [CHANGELOG](CHANGELOG.md).
 
-Other PHP packages
-------------------
+## Other PHP packages
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
 * [PHP Completions](https://github.com/gerardroche/sublime-phpck)
@@ -34,8 +33,7 @@ Other PHP packages
 * [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
 * [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
-Usage
------
+## Usage
 
 > Auto complete shows the completion popup as you type, so you can fill in long
 > words by typing only a few characters.
@@ -92,43 +90,37 @@ The [`array_keys`][phpdocs_array_keys] function has two optional arguments:
 
 When you first commit the completion you will get:
 
-         current selection
-               vvv
-    array_keys(arg, search_value, strict)
+    array_keys(|arg|, search_value, strict)
 
 After you fill in `arg` press <kbd>tab</kbd> and you get:
 
-                           vvvvvvvvvvvvvvvvvvvvvv
-    array_keys(array(1,2,3), search_value, strict)
+    array_keys(array(1,2,3)|, search_value, strict|)
 
 Notice the comma is under current selection.  This is because the last two
 arguments are optional.  This gives you a chance to skip the remaining fields by
 pressing <kbd>del</kbd> then <kbd>esc</kbd>.  However, if you want the next
 optional field then press <kbd>tab</kbd> again and you get:
 
-                             vvvvvvvvvvvv
-    array_keys(array(1,2,3), search_value, strict)
+    array_keys(array(1,2,3), |search_value|, strict)
 
 Now fill in the `search_value` and press <kbd>tab</kbd>:
 
-                              vvvvvvvv
-    array_keys(array(1,2,3), 2, strict)
+    array_keys(array(1,2,3), 2|, strict|)
 
 If you don't want *this* optional field, press <kbd>del</kbd> then
 <kbd>esc</kbd>.  However, if you *do* want it, press <kbd>tab</kbd>:
 
-                                vvvvvv
-    array_keys(array(1,2,3), 2, strict)
+    array_keys(array(1,2,3), 2, |strict|)
 
 [phpdocs_array_keys]: http://php.net/array_keys
 
-How to disable the default PHP completions
-------------------------------------------
+## How to disable the default PHP completions
 
 The default PHP completions bundled with Sublime Text may cause redundant,
 useless duplicate completions in auto complete.
 
-One way to disable these bundled completions is to [override them](http://www.sublimetext.com/docs/3/packages.html).
+One way to disable these bundled completions is to
+[override them](http://www.sublimetext.com/docs/3/packages.html).
 
 1. Locate the Sublime Text `Packages` directory by using the menu item
 `Preferences -> Browse Packages...`
@@ -136,8 +128,7 @@ One way to disable these bundled completions is to [override them](http://www.su
 3. Create an empty file named `PHP.sublime-completions` inside the `PHP`
 directory
 
-Installation
-------------
+## Installation
 
 ### [Package Control](https://sublime.wbond.net/installation)
 

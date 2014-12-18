@@ -1,9 +1,9 @@
 {
     // scopes:
     //
-    // source.php - variable.other - meta.function.arguments - entity.other.inherited-class - meta.use - meta.catch - comment - string
+    // source.php - variable.other - meta.function.arguments - entity.name - meta.use - meta.catch - comment - string
 
-    "scope": "source.php - variable.other - meta.function.arguments - entity.other.inherited-class - meta.use - meta.catch - comment - string",
+    "scope": "source.php - variable.other - meta.function.arguments - entity.name - meta.use - meta.catch - comment - string",
     "completions": [
         {"trigger":"__halt_compiler()\tLanguage Construct","contents":"__halt_compiler(${1})"},
         {"trigger":"abstract \tLanguage Construct","contents":"abstract "},

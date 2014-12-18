@@ -1,6 +1,13 @@
 CHANGELOG
 =========
 
+0.6.0
+-----
+
+- 5dc7faf Fix #8 Show messages when installing and updating
+- 8f344b8 :bug: Fix completions shouldn't trigger in class constant context e.g. self::|
+- a0ca1dd :bug: Fix completions shouldn't trigger in declaration e.g. class a|
+
 0.5.2
 -----
 

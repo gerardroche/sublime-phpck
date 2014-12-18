@@ -1,0 +1,14 @@
+PHP Completions 0.6.0
+=====================
+
+- 5dc7faf Fix #8 Show messages when installing and updating
+- 8f344b8 :bug: Fix completions shouldn't trigger in class constant context e.g. self::|
+- a0ca1dd :bug: Fix completions shouldn't trigger in declaration e.g. class a|
+
+## Other PHP packages
+
+- PHP Grammar: https://github.com/gerardroche/sublime-php-grammar
+- PHP Completions: https://github.com/gerardroche/sublime-phpck
+- PHP Snippets: https://github.com/gerardroche/sublime-php-snippets
+- PHPUnit Completions: https://github.com/gerardroche/sublime-phpunitck
+- PHPUnit Snippets: https://github.com/gerardroche/sublime-phpunit-snippets

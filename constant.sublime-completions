@@ -1,9 +1,9 @@
 {
     // scopes:
     //
-    // source.php constant.other
+    // source.php constant.other - constant.other.class
 
-    "scope": "source.php constant.other",
+    "scope": "source.php constant.other - constant.other.class",
     "completions": [
         {"trigger":"__CLASS__\tCompile-Time Constant","contents":"__CLASS__"},
         {"trigger":"__DIR__\tCompile-Time Constant","contents":"__DIR__"},

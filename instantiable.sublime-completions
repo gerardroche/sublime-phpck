@@ -1,7 +1,12 @@
 {
     // scopes:
     //
-    // source.php support.class - meta.catch - meta.function.argument.typehinted - string
+    // source.php support.class
+    //   blacklist:
+    //     meta.catch
+    //     meta.function.argument.typehinted
+    //     string
+    //
 
     "scope": "source.php support.class - meta.catch - meta.function.argument.typehinted - string",
     "completions": [

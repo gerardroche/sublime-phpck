@@ -1,7 +1,18 @@
 {
     // scopes:
     //
-    // source.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.use - string - support.class - variable.other
+    // source.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.function.arguments
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //
 
     "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [

@@ -1,10 +1,8 @@
-# PHP Completions 0.6.0 Changelog
+# php-completions 0.6.0 changelog
 
-Your _PHP Completions_ plugin is updated. Enjoy new version. For any type of feedback you can use [GitHub issues][issues].
+The _php-completions_ plugin is updated. Enjoy the new version. For any type of feedback you can use [GitHub issues](https://github.com/gerardroche/sublime-phpck/issues).
 
 ## Bug Fixes
 
 - #8 Show messages when installing and updating
 - Completions shouldn't trigger in a class constant context e.g. begin typing at `self::|`
-
-[issues]: https://github.com/gerardroche/sublime-php-completions/issues

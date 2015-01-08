@@ -1,4 +1,17 @@
-# PHP Completions Changelog
+# php-completions changelog
+
+## 0.7.0
+
+### New Features
+
+* Type hints are now available in multi line comments, not just phpdocs's e.g. begin typing at `/* @var |`
+* Annotations are now available in multi line comments, not just phpdoc's e.g. `/* @annotation `
+* Minimise auto-complete noise: Functions and language constructs no longer activate in a "meta" scope e.g. typing at `class a extends |`
+
+### Changes
+
+* Scopes blacklists are now pretty printed
+* Scopes are now sorted ASC
 
 ## 0.6.0
 

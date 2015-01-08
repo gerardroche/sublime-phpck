@@ -2,7 +2,7 @@ Build Log
 =========
 
 * PHP 5.6.0
-* PHPPT 0.5.0
+* PHPPT 0.7.0
 
 Extensions
 

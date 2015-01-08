@@ -1,12 +1,12 @@
 {
     // scopes:
     //
-    // source.php comment.block.documentation.phpdoc
+    // source.php comment.block
     // source.php meta.class entity.other.inherited-class
     // source.php meta.function.arguments - variable.other
     // source.php meta.use
 
-    "scope": "source.php comment.block.documentation.phpdoc, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.use",
+    "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.use",
     "completions": [
         {"trigger":"__PHP_Incomplete_Class\tstandard Class","contents":"__PHP_Incomplete_Class"},
         {"trigger":"AppendIterator\tSPL Class","contents":"AppendIterator"},

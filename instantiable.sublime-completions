@@ -1,9 +1,14 @@
 {
     // scopes:
     //
-    // source.php support.class - meta.function.argument.typehinted - meta.catch - string
+    // source.php support.class
+    //   blacklist:
+    //     meta.catch
+    //     meta.function.argument.typehinted
+    //     string
+    //
 
-    "scope": "source.php support.class - meta.function.argument.typehinted - meta.catch - string",
+    "scope": "source.php support.class - meta.catch - meta.function.argument.typehinted - string",
     "completions": [
         {"trigger":"__PHP_Incomplete_Class()\tstandard Class","contents":"__PHP_Incomplete_Class()"},
         {"trigger":"AppendIterator()\tSPL Class","contents":"AppendIterator()"},

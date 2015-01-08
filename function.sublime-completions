@@ -1,9 +1,21 @@
 {
     // scopes:
     //
-    // source.php - constant.other.class - variable.other - meta.function.arguments - support.class - entity - meta.use - meta.catch - comment - string
+    // source.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.class
+    //     meta.function.arguments
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //
 
-    "scope": "source.php - constant.other.class - variable.other - meta.function.arguments - support.class - entity - meta.use - meta.catch - comment - string",
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [
         {"trigger":"_()\tgettext Function","contents":"_(${1:msgid})"},
         {"trigger":"abs()\tstandard Function","contents":"abs(${1:number})"},

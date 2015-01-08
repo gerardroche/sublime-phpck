@@ -1,7 +1,10 @@
 {
     // scopes:
     //
-    // source.php constant.other - constant.other.class
+    // source.php constant.other
+    //   blacklist:
+    //     constant.other.class
+    //
 
     "scope": "source.php constant.other - constant.other.class",
     "completions": [

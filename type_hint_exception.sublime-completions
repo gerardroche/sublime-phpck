@@ -1,12 +1,12 @@
 {
     // scopes:
     //
+    // source.php comment.block
     // source.php meta.catch
     // source.php meta.class entity.other.inherited-class
-    // source.php comment.block.documentation.phpdoc
     // source.php meta.use
 
-    "scope": "source.php meta.catch, source.php meta.class entity.other.inherited-class, source.php comment.block.documentation.phpdoc, source.php meta.use",
+    "scope": "source.php comment.block, source.php meta.catch, source.php meta.class entity.other.inherited-class, source.php meta.use",
     "completions": [
         {"trigger":"BadFunctionCallException\tSPL Exception","contents":"BadFunctionCallException"},
         {"trigger":"BadMethodCallException\tSPL Exception","contents":"BadMethodCallException"},

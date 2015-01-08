@@ -1,151 +1,103 @@
-Sublime PHP Completions Kit
-===========================
+# php-completions
 
-Provides PHP [~5.6](http://semver.org) completions for
-[Sublime Text](http://www.sublimetext.com).
+php-completions plugin for Sublime Text. Provides decent PHP completions.
 
-Completions include [language constructs], [compile-time constants],
-constants, functions, classes, interfaces, exceptions, and magic-methods.
+## Overview
 
-[language constructs]: http://php.net/manual/reserved.keywords.php
-[compile-time constants]: http://php.net/manual/reserved.keywords.php
+* [Features](#features)
+* [Key Bindings](#key-bindings)
+* [Installation](#installation)
+* [Contributing](#contributing)
+* [Changelog](#changelog)
+* [Complementary Plugins](#complementary-plugins)
+* [License](#license)
 
-Extensions include:
+# Features
 
+* PHP [~5.6][semver]
+* [PSR][php-fig] compliant
+* Scoped to minimise auto-complete noise
+* Language constructs
+* Compile-time constants
+* Magic methods
+* Constants
+* Functions
+* Type hints e.g. begin typing at `class Name extends |`, `function(|`, `/* @var | */`, and any other scope where a type hint is valid.
+    + Exception type hints only e.g. begin typing at `try { } catch(|`
+    + Interface type hints only e.g. begin typing at `class name implements |`
+    + Instantiable classes only e.g. begin typing at `new |`
+* Supported extensions:
+    ```
     bcmath  bz2 calendar Core ctype  curl  date  dom ereg exif fileinfo filter
     ftp  gd  gettext hash iconv  intl  json  libxml  mbstring  mcrypt  mhash
     mysql  mysqli  mysqlnd openssl  pcntl pcre PDO  pdo_mysql pdo_sqlite Phar
     posix  readline  Reflection  session shmop  SimpleXML soap sockets  SPL
     sqlite3  standard  sysvmsg sysvsem  sysvshm tidy tokenizer  wddx  xdebug
     xml xmlreader  xmlwriter Zend OPcache zip  zlib
+    ```
 
-All completions activate *only* in valid contexts.
+## Key Bindings
 
-## Changelog
+| OS X | Windows | Linux | Description |
+|------|---------|-------|-------------|
+| <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
 
-See [CHANGELOG](CHANGELOG.md).
-
-## Other PHP packages
-
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
-
-## Usage
-
-> Auto complete shows the completion popup as you type, so you can fill in long
-> words by typing only a few characters.
->
-> Pressing <kbd>ctrl</kbd>+<kbd>space</kbd> (OSX and Windows),
-> <kbd>alt</kbd>+<kbd>/</kbd> (Linux) will show the completion popup if it's not
-> currently showing.  If it is showing, it'll select the next item.
->
-> &mdash; [Sublime Text Documentation](http://www.sublimetext.com/docs/3/auto_complete.html)
-
-**Type hints**
-
-`class name extends |` activates classes and exceptions
-
-`class name implements |` activates interfaces
-
-`interface name extends |` activates interfaces
-
-`... instanceof |` activates classes, interfaces, and exceptions
-
-`function name(|` activates classes, interfaces, and exceptions
-
-`class name { public function name(|` activates classes, interfaces, and exceptions
-
-`try { /*...*/ } catch (|` activates exceptions
-
-    /**
-     * @annotation | < activates classes, interfaces, and exceptions
-     */
-
-**Instantiable classes**
-
-`new |` activates instantiable classes and exceptions
-
-### Function arguments
-
-Cycle through argument fields by pressing the <kbd>tab</kbd> key.
-
-To break out of a field cycle <kbd>esc</kbd>.  *You can also press
-<kbd>tab</kbd> continuously through to the end of the field cycle.*
-
-Optional fields are *group selected* meaning you can skip remaining fields by
-deleting them, and breaking out of the field cycle.
-
-**Example**
-
-The [`array_keys`][phpdocs_array_keys] function has two optional arguments:
-`search_value` and `strict`.
-
-    array_keys(arg, search_value, strict)
-
-The [`array_keys`][phpdocs_array_keys] function has two optional arguments:
-`search_value` and `strict` - `array_keys(arg, search_value, strict)`.
-
-When you first commit the completion you will get:
-
-    array_keys(|arg|, search_value, strict)
-
-After you fill in `arg` press <kbd>tab</kbd> and you get:
-
-    array_keys(array(1,2,3)|, search_value, strict|)
-
-Notice the comma is under current selection.  This is because the last two
-arguments are optional.  This gives you a chance to skip the remaining fields by
-pressing <kbd>del</kbd> then <kbd>esc</kbd>.  However, if you want the next
-optional field then press <kbd>tab</kbd> again and you get:
-
-    array_keys(array(1,2,3), |search_value|, strict)
-
-Now fill in the `search_value` and press <kbd>tab</kbd>:
-
-    array_keys(array(1,2,3), 2|, strict|)
-
-If you don't want *this* optional field, press <kbd>del</kbd> then
-<kbd>esc</kbd>.  However, if you *do* want it, press <kbd>tab</kbd>:
-
-    array_keys(array(1,2,3), 2, |strict|)
-
-[phpdocs_array_keys]: http://php.net/array_keys
-
-## How to disable the default PHP completions
-
-The default PHP completions bundled with Sublime Text may cause redundant,
-useless duplicate completions in auto complete.
-
-One way to disable these bundled completions is to
-[override them](http://www.sublimetext.com/docs/3/packages.html).
-
-1. Locate the Sublime Text `Packages` directory by using the menu item
-`Preferences -> Browse Packages...`
-2. Create a directory named `PHP`
-3. Create an empty file named `PHP.sublime-completions` inside the `PHP`
-directory
+To enable [tab-completions][tab-completed-completions] set `"tab_completion": true` in `Preferences > Settings - User`.
 
 ## Installation
 
-### [Package Control](https://sublime.wbond.net/installation)
+### Package Control installation
 
-1. Open Package Control: `Preferences -> Package Control`
-2. Select `Package Control: Install Package`
-3. Type `PHP Completions Kit` into the search box and select the package to
-install it
+The preferred method of installation is via Package Control.
 
-### [Git](http://git-scm.com)
+1. Install [Package Control]
+2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac.
+3. Type `install package` and hit Return. A list of available packages will be displayed.
+4. Type `php completions kit` and hit Return. The package will be downloaded to the appropriate directory.
+5. Restart Sublime Text to complete installation. The features listed above should now be available.
 
-Clone directly into the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+### Manual installation
 
-### [Manual](http://www.sublimetext.com/docs/3/packages.html)
+1. Download or clone this repository to a directory "php-completions" in the Sublime Text Packages directory for your platform:
+    * Sublime Text 3
+        - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/php-completions`
+        - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-completions`
+        - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 3/Packages/php-completions`
+    * Sublime Text 2
+        - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
+        - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
+        - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
+2. Restart Sublime Text to complete installation. The features listed above should now be available.
 
-1. [Download a release](https://github.com/gerardroche/sublime-phpck/releases)
-2. Unzip and copy it to the Sublime Text `Packages` directory.  *Locate the
-`Packages` directory by using the menu item
-`Preferences -> Browse Packages...`.*
+## Contributing
+
+Issue reports and pull requests are always welcome.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Complementary Plugins
+
+* [php-completions]
+* [php-grammar]
+* [php-snippets]
+* [phpunit-completions]
+* [phpunit-snippets]
+* [phpunit]
+
+## License
+
+php-completions is released under the [BSD 3-Clause License][license].
+
+[license]: LICENSE
+[Package Control]: https://packagecontrol.io
+[php-completions]: https://github.com/gerardroche/sublime-phpck
+[php-fig]: http://www.php-fig.org
+[php-grammar]: https://github.com/gerardroche/sublime-php-grammar
+[php-snippets]: https://github.com/gerardroche/sublime-php-snippets
+[phpunit-completions]: https://github.com/gerardroche/sublime-phpunitck
+[phpunit-snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
+[phpunit]: https://github.com/gerardroche/sublime-phpunit
+[semver]: http://semver.org
+[tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions

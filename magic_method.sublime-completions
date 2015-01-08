@@ -1,10 +1,13 @@
 {
     // scopes:
     //
+    // source.php constant.other
+    //   blacklist:
+    //     constant.other.class
+    //
     // source.php support.function.magic
-    // source.php constant.other - constant.other.class
 
-    "scope": "source.php support.function.magic, source.php constant.other - constant.other.class",
+    "scope": "source.php constant.other - constant.other.class, source.php support.function.magic",
     "completions": [
         {"trigger":"__call()\tMagic Method","contents":"__call(${1:name}, ${2:arguments})"},
         {"trigger":"__callStatic()\tMagic Method","contents":"__callStatic(${1:name}, ${2:arguments})"},

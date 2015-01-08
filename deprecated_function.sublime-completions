@@ -7,6 +7,7 @@
     //     constant.other.class
     //     entity
     //     meta.catch
+    //     meta.class
     //     meta.function.arguments
     //     meta.use
     //     string
@@ -14,7 +15,7 @@
     //     variable.other
     //
 
-    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.use - string - support.class - variable.other",
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [
         {"trigger":"call_user_method()\tdeprecated standard Function","contents":"call_user_method(${1:method_name}, ${2:&object}${3:, ${4:parameters}})"},
         {"trigger":"call_user_method_array()\tdeprecated standard Function","contents":"call_user_method_array(${1:method_name}, ${2:&object}, ${3:params})"},

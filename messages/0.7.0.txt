@@ -1,6 +1,6 @@
-# php-completions 0.6.0 changelog
+# php-completions 0.7.0 changelog
 
-The _php-completions plugin is updated. Enjoy the new version. For any type of feedback you can use [GitHub issues](https://github.com/gerardroche/sublime-phpck/issues).
+The _php-completions_ plugin is updated. Enjoy the new version. For any type of feedback you can use [GitHub issues](https://github.com/gerardroche/sublime-phpck/issues).
 
 ### New Features
 

@@ -1,5 +1,15 @@
 # php-completions changelog
 
+## 0.8.0
+
+### New Features
+
+* Add PHP 5.6 `__debugInfo` magic method
+
+### Changes
+
+* "Compile-Time Constant" description changed to "Magic Constant" as per PHP documentation: http://php.net/manual/language.constants.predefined.php
+
 ## 0.7.0
 
 ### New Features

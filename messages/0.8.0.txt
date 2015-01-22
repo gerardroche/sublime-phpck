@@ -1,17 +1,14 @@
-# php-completions 0.7.0 changelog
+# php-completions 0.8.0 changelog
 
 The _php-completions_ plugin is updated. Enjoy the new version. For any type of feedback you can use [GitHub issues](https://github.com/gerardroche/sublime-phpck/issues).
 
-### New Features
+## New Features
 
-* Type hints are now available in multi line comments, not just phpdocs's e.g. begin typing at `/* @var |`
-* Annotations are now available in multi line comments, not just phpdoc's e.g. `/* @annotation `
-* Minimise auto-complete noise: Functions and language constructs no longer activate in a "meta" scope e.g. typing at `class a extends |`
+* Add PHP 5.6 `__debugInfo` magic method
 
-### Changes
+## Changes
 
-* Scopes blacklists are now pretty printed
-* Scopes are now sorted ASC
+* "Compile-Time Constant" description changed to "Magic Constant" as per PHP documentation: http://php.net/manual/language.constants.predefined.php
 
 ## Complementary Plugins
 

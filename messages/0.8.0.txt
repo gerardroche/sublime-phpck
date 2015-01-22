@@ -1,0 +1,20 @@
+# php-completions 0.8.0 changelog
+
+The _php-completions_ plugin is updated. Enjoy the new version. For any type of feedback you can use [GitHub issues](https://github.com/gerardroche/sublime-phpck/issues).
+
+## New Features
+
+* Add PHP 5.6 `__debugInfo` magic method
+
+## Changes
+
+* "Compile-Time Constant" description changed to "Magic Constant" as per PHP documentation: http://php.net/manual/language.constants.predefined.php
+
+## Complementary Plugins
+
+* [php-completions](https://github.com/gerardroche/sublime-phpck)
+* [php-grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [php-snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [phpunit-completions](https://github.com/gerardroche/sublime-phpunitck)
+* [phpunit-snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+* [phpunit](https://github.com/gerardroche/sublime-phpunit)

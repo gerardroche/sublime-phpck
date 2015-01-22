@@ -13,6 +13,7 @@
         {"trigger":"__callStatic()\tMagic Method","contents":"__callStatic(${1:name}, ${2:arguments})"},
         {"trigger":"__clone()\tMagic Method","contents":"__clone()"},
         {"trigger":"__construct()\tMagic Method","contents":"__construct($1)"},
+        {"trigger":"__debugInfo()\tMagic Method","contents":"__debugInfo()"},
         {"trigger":"__destruct()\tMagic Method","contents":"__destruct()"},
         {"trigger":"__get()\tMagic Method","contents":"__get(${1:name})"},
         {"trigger":"__invoke()\tMagic Method","contents":"__invoke($1)"},

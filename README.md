@@ -18,7 +18,7 @@ php-completions plugin for Sublime Text. Provides decent PHP completions.
 * [PSR][php-fig] compliant
 * Scoped to minimise auto-complete noise
 * Language constructs
-* Compile-time constants
+* Magic constants
 * Magic methods
 * Constants
 * Functions

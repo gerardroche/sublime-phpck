@@ -1,6 +1,6 @@
-# php-completions
+# sublime-php-completions
 
-php-completions plugin for Sublime Text. Provides decent PHP completions.
+sublime-php-completions plugin for Sublime Text. Provides decent PHP completions.
 
 ## Overview
 
@@ -58,7 +58,7 @@ The preferred method of installation is via Package Control.
 
 ### Manual installation
 
-1. Download or clone this repository to a directory "php-completions" in the Sublime Text Packages directory for your platform:
+1. Download or clone this repository to a directory named `php-completions` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-completions`
@@ -88,7 +88,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-php-completions is released under the [BSD 3-Clause License][license].
+sublime-php-completions is released under the [BSD 3-Clause License][license].
 
 [license]: LICENSE
 [Package Control]: https://packagecontrol.io

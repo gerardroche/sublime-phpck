@@ -1,0 +1,14 @@
+# sublime-php-completions 0.10.0 changelog
+
+**Fixes**
+
+* Forgot to add package control changelog messages
+
+## Complementary Plugins
+
+* [php-completions](https://github.com/gerardroche/sublime-phpck)
+* [php-grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [php-snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [phpunit-completions](https://github.com/gerardroche/sublime-phpunitck)
+* [phpunit-snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+* [phpunit](https://github.com/gerardroche/sublime-phpunit)

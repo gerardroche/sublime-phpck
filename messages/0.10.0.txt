@@ -1,8 +1,8 @@
-# sublime-php-completions 0.9.0 changelog
+# sublime-php-completions 0.10.0 changelog
 
 **Fixes**
 
-* Fixed `true`, `false`, and `null` core constants should be lowercase in-line with PSR
+* Forgot to add package control changelog messages
 
 ## Complementary Plugins
 

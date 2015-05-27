@@ -1,0 +1,12 @@
+# sublime-php-completions 0.9.0 changelog
+
+* Fixed `true`, `false`, and `null` core constants should be lowercase in-line with PSR
+
+## Complementary Plugins
+
+* [php-completions](https://github.com/gerardroche/sublime-phpck)
+* [php-grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [php-snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [phpunit-completions](https://github.com/gerardroche/sublime-phpunitck)
+* [phpunit-snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
+* [phpunit](https://github.com/gerardroche/sublime-phpunit)

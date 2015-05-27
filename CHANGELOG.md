@@ -1,5 +1,9 @@
 # sublime-php-completions changelog
 
+## 0.10.0
+
+* Forgot to add package control changelog messages
+
 ## 0.9.0
 
 * Fixed `true`, `false`, and `null` core constants should be lowercase in-line with PSR

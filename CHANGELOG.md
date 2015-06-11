@@ -1,5 +1,9 @@
 # sublime-php-completions changelog
 
+## 0.11.0
+
+* Update completions to PHP 5.6.9
+
 ## 0.10.0
 
 * Forgot to add package control changelog messages

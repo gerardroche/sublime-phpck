@@ -1,5 +1,9 @@
 # sublime-php-completions changelog
 
+## 0.12.0 (upcoming)
+
+* Now auto disables native PHP package completions
+
 ## 0.11.0
 
 * Update completions to PHP 5.6.9

@@ -79,25 +79,17 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Complementary Plugins
 
-* [php-completions]
-* [php-grammar]
-* [php-snippets]
-* [phpunit-completions]
-* [phpunit-snippets]
-* [phpunit]
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 ## License
 
-sublime-php-completions is released under the [BSD 3-Clause License][license].
+sublime-php-completions is released under the [BSD 3-Clause License](LICENSE).
 
-[license]: LICENSE
 [Package Control]: https://packagecontrol.io
-[php-completions]: https://github.com/gerardroche/sublime-phpck
 [php-fig]: http://www.php-fig.org
-[php-grammar]: https://github.com/gerardroche/sublime-php-grammar
-[php-snippets]: https://github.com/gerardroche/sublime-php-snippets
-[phpunit-completions]: https://github.com/gerardroche/sublime-phpunitck
-[phpunit-snippets]: https://github.com/gerardroche/sublime-phpunit-snippets
-[phpunit]: https://github.com/gerardroche/sublime-phpunit
 [semver]: http://semver.org
 [tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions

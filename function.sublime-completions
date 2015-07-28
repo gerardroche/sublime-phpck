@@ -1,5 +1,5 @@
 {
-    // scopes:
+    // scope:
     //
     // source.php
     //   blacklist:
@@ -13,7 +13,6 @@
     //     string
     //     support.class
     //     variable.other
-    //
 
     "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [

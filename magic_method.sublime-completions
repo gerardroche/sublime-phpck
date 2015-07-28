@@ -1,10 +1,9 @@
 {
-    // scopes:
+    // scope:
     //
     // source.php constant.other
     //   blacklist:
     //     constant.other.class
-    //
     // source.php support.function.magic
 
     "scope": "source.php constant.other - constant.other.class, source.php support.function.magic",

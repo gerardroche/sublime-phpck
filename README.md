@@ -14,8 +14,8 @@ sublime-php-completions plugin for Sublime Text. Provides decent PHP completions
 
 # Features
 
-* PHP [~5.6][semver]
-* [PSR][php-fig] compliant
+* PHP [~5.6](http://semver.org)
+* [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 * Language constructs
 * Magic constants
@@ -42,7 +42,7 @@ sublime-php-completions plugin for Sublime Text. Provides decent PHP completions
 |------|---------|-------|-------------|
 | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
 
-To enable [tab-completions][tab-completed-completions] set `"tab_completion": true` in `Preferences > Settings - User`.
+To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions) set `"tab_completion": true` in `Preferences > Settings - User`.
 
 ## Installation
 
@@ -50,7 +50,7 @@ To enable [tab-completions][tab-completed-completions] set `"tab_completion": tr
 
 The preferred method of installation is via Package Control.
 
-1. Install [Package Control]
+1. Install [Package Control](https://packagecontrol.io)
 2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac.
 3. Type `install package` and hit Return. A list of available packages will be displayed.
 4. Type `php completions kit` and hit Return. The package will be downloaded to the appropriate directory.
@@ -58,7 +58,8 @@ The preferred method of installation is via Package Control.
 
 ### Manual installation
 
-1. Download or clone this repository to a directory named `php-completions` in the Sublime Text Packages directory for your platform:
+1. Close Sublime Text
+2. Download or clone this repository to a directory named `php-completions` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-completions`
@@ -67,7 +68,6 @@ The preferred method of installation is via Package Control.
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
-2. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ## Contributing
 
@@ -88,8 +88,3 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 sublime-php-completions is released under the [BSD 3-Clause License](LICENSE).
-
-[Package Control]: https://packagecontrol.io
-[php-fig]: http://www.php-fig.org
-[semver]: http://semver.org
-[tab-completed-completions]: http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions

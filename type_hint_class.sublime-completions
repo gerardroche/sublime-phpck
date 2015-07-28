@@ -1,9 +1,11 @@
 {
-    // scopes:
+    // scope:
     //
     // source.php comment.block
     // source.php meta.class entity.other.inherited-class
-    // source.php meta.function.arguments - variable.other
+    // source.php meta.function.arguments
+    //   blacklist:
+    //     variable.other
     // source.php meta.use
 
     "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.use",

@@ -1,4 +1,4 @@
-# sublime-php-completions
+# gerardroche/sublime-php-completions
 
 sublime-php-completions plugin for Sublime Text. Provides decent PHP completions.
 
@@ -80,11 +80,12 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## Complementary Plugins
 
 * [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
 * [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
 * [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunitck)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions)
 * [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 ## License
 
-sublime-php-completions is released under the [BSD 3-Clause License](LICENSE).
+Released under the [BSD 3-Clause License](LICENSE).

@@ -1174,7 +1174,7 @@
         {"trigger":"openssl_public_decrypt()\topenssl Function","contents":"openssl_public_decrypt(${1:data}, ${2:&crypted}, ${3:key}${4:, ${5:padding}})"},
         {"trigger":"openssl_public_encrypt()\topenssl Function","contents":"openssl_public_encrypt(${1:data}, ${2:&crypted}, ${3:key}${4:, ${5:padding}})"},
         {"trigger":"openssl_random_pseudo_bytes()\topenssl Function","contents":"openssl_random_pseudo_bytes(${1:length}${2:, ${3:&result_is_strong}})"},
-        {"trigger":"openssl_seal()\topenssl Function","contents":"openssl_seal(${1:data}, ${2:&sealdata}, ${3:&ekeys}, ${4:pubkeys})"},
+        {"trigger":"openssl_seal()\topenssl Function","contents":"openssl_seal(${1:data}, ${2:&sealdata}, ${3:&ekeys}, ${4:pubkeys}${5:, ${6:method}})"},
         {"trigger":"openssl_sign()\topenssl Function","contents":"openssl_sign(${1:data}, ${2:&signature}, ${3:key}${4:, ${5:method}})"},
         {"trigger":"openssl_spki_export()\topenssl Function","contents":"openssl_spki_export(${1:spki})"},
         {"trigger":"openssl_spki_export_challenge()\topenssl Function","contents":"openssl_spki_export_challenge(${1:spki})"},

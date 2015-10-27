@@ -1,0 +1,11 @@
+# php-completions 0.12.0 changelog
+
+* Added: Auto disable native PHP package completions
+
+## Complementary Plugins
+
+* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
+* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
+* [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
+* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions)
+* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)

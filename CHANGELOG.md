@@ -3,6 +3,7 @@
 ## 0.12.0-dev
 
 * Added: Auto disable native PHP package completions
+* Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
 * Update completions to PHP 5.6.14
 
 ## 0.11.0

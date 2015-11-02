@@ -1,6 +1,8 @@
 # gerardroche/sublime-php-completions
 
-sublime-php-completions plugin for Sublime Text. Provides decent PHP completions.
+A plugin for Sublime Text.
+
+Provides decent PHP completions.
 
 ## Overview
 
@@ -50,15 +52,15 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 The preferred method of installation is via Package Control.
 
-1. Install [Package Control](https://packagecontrol.io)
+1. Install [Package Control](https://packagecontrol.io).
 2. From inside Sublime Text, open Package Control's Command Pallet: <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) or <kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Mac.
 3. Type `install package` and hit Return. A list of available packages will be displayed.
-4. Type `php completions kit` and hit Return. The package will be downloaded to the appropriate directory.
+4. Type `PHP Completions Kit` and hit Return. The package will be downloaded to the appropriate directory.
 5. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ### Manual installation
 
-1. Close Sublime Text
+1. Close Sublime Text.
 2. Download or clone this repository to a directory named `php-completions` in the Sublime Text Packages directory for your platform:
     * Sublime Text 3
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/php-completions`
@@ -68,10 +70,11 @@ The preferred method of installation is via Package Control.
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
+3. Restart Sublime Text to complete installation. The features listed above should now be available.
 
 ## Contributing
 
-Issue reports and pull requests are always welcome.
+Your issue reports and pull requests are always welcome.
 
 ## Changelog
 

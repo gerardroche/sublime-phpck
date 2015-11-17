@@ -1,5 +1,0 @@
-PHP Completions 0.3.5
-=====================
-
-- Fixed Should not trigger type hints, functions, or language constructs in a variable context 1374388
-

@@ -1,4 +1,0 @@
-PHP Completions 0.1.0
-=====================
-
-- Initial import: PHP 5.4 completions

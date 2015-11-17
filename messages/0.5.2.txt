@@ -1,5 +1,0 @@
-PHP Completions 0.5.2
-=====================
-
-- Fixed Functions and language constructs should not trigger in a comment context fd0346e
-- Added Simplified magic method __construct and __invoke argument fields c29906a

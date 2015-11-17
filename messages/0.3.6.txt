@@ -1,4 +1,0 @@
-PHP Completions 0.3.6
-=====================
-
-- Fixed Forgot to bump version in versioning file, again

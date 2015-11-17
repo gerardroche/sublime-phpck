@@ -1,5 +1,9 @@
 # gerardroche/sublime-php-completions changelog
 
+## master branch (next release)
+
+* Removed: package control messages; the changelog is good enough
+
 ## 0.12.0
 
 * Added: Auto disable native PHP package completions

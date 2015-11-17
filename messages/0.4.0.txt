@@ -1,4 +1,0 @@
-PHP Completions 0.4.0
-=====================
-
-- Updated completions to PHP version 5.5.13 1619f28

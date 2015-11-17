@@ -1,10 +1,10 @@
 # gerardroche/sublime-php-completions changelog
 
-## 0.12.0-dev
+## 0.12.0
 
 * Added: Auto disable native PHP package completions
 * Added: Package Settings Menu with README, CHANGELOG, and LICENSE links
-* Update completions to PHP 5.6.14
+* Updated: completions to PHP 5.6.14
 
 ## 0.11.0
 

@@ -1,6 +1,14 @@
 # gerardroche/sublime-php-completions changelog
 
-## master branch (next release)
+## 0.13.0
+
+* Fixed: Work around ST issues when triggers contain certain characters
+
+Completions are broken in a various ways when completion
+triggers contain characters not in range [a-zA-Z0-9_-].
+
+See https://github.com/SublimeTextIssues/Core/issues/1061
+See https://github.com/SublimeTextIssues/Core/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+completions
 
 * Removed: package control messages; the changelog is good enough
 

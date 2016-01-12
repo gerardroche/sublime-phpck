@@ -11,21 +11,21 @@
 
     "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.interface entity.other.inherited-class, source.php meta.use",
     "completions": [
-        {"trigger":"ArrayAccess\tCore Interface","contents":"ArrayAccess"},
-        {"trigger":"Countable\tSPL Interface","contents":"Countable"},
-        {"trigger":"DateTimeInterface\tdate Interface","contents":"DateTimeInterface"},
-        {"trigger":"Iterator\tCore Interface","contents":"Iterator"},
-        {"trigger":"IteratorAggregate\tCore Interface","contents":"IteratorAggregate"},
-        {"trigger":"JsonSerializable\tjson Interface","contents":"JsonSerializable"},
-        {"trigger":"OuterIterator\tSPL Interface","contents":"OuterIterator"},
-        {"trigger":"RecursiveIterator\tSPL Interface","contents":"RecursiveIterator"},
-        {"trigger":"Reflector\tReflection Interface","contents":"Reflector"},
-        {"trigger":"SeekableIterator\tSPL Interface","contents":"SeekableIterator"},
-        {"trigger":"Serializable\tCore Interface","contents":"Serializable"},
-        {"trigger":"SessionHandlerInterface\tsession Interface","contents":"SessionHandlerInterface"},
-        {"trigger":"SessionIdInterface\tsession Interface","contents":"SessionIdInterface"},
-        {"trigger":"SplObserver\tSPL Interface","contents":"SplObserver"},
-        {"trigger":"SplSubject\tSPL Interface","contents":"SplSubject"},
-        {"trigger":"Traversable\tCore Interface","contents":"Traversable"}
+        {"trigger":"ArrayAccess","contents":"ArrayAccess"},
+        {"trigger":"Countable","contents":"Countable"},
+        {"trigger":"DateTimeInterface","contents":"DateTimeInterface"},
+        {"trigger":"Iterator","contents":"Iterator"},
+        {"trigger":"IteratorAggregate","contents":"IteratorAggregate"},
+        {"trigger":"JsonSerializable","contents":"JsonSerializable"},
+        {"trigger":"OuterIterator","contents":"OuterIterator"},
+        {"trigger":"RecursiveIterator","contents":"RecursiveIterator"},
+        {"trigger":"Reflector","contents":"Reflector"},
+        {"trigger":"SeekableIterator","contents":"SeekableIterator"},
+        {"trigger":"Serializable","contents":"Serializable"},
+        {"trigger":"SessionHandlerInterface","contents":"SessionHandlerInterface"},
+        {"trigger":"SessionIdInterface","contents":"SessionIdInterface"},
+        {"trigger":"SplObserver","contents":"SplObserver"},
+        {"trigger":"SplSubject","contents":"SplSubject"},
+        {"trigger":"Traversable","contents":"Traversable"}
     ]
 }

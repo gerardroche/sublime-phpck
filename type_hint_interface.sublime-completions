@@ -11,21 +11,21 @@
 
     "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.interface entity.other.inherited-class, source.php meta.use",
     "completions": [
-        {"trigger":"ArrayAccess","contents":"ArrayAccess"},
-        {"trigger":"Countable","contents":"Countable"},
-        {"trigger":"DateTimeInterface","contents":"DateTimeInterface"},
-        {"trigger":"Iterator","contents":"Iterator"},
-        {"trigger":"IteratorAggregate","contents":"IteratorAggregate"},
-        {"trigger":"JsonSerializable","contents":"JsonSerializable"},
-        {"trigger":"OuterIterator","contents":"OuterIterator"},
-        {"trigger":"RecursiveIterator","contents":"RecursiveIterator"},
-        {"trigger":"Reflector","contents":"Reflector"},
-        {"trigger":"SeekableIterator","contents":"SeekableIterator"},
-        {"trigger":"Serializable","contents":"Serializable"},
-        {"trigger":"SessionHandlerInterface","contents":"SessionHandlerInterface"},
-        {"trigger":"SessionIdInterface","contents":"SessionIdInterface"},
-        {"trigger":"SplObserver","contents":"SplObserver"},
-        {"trigger":"SplSubject","contents":"SplSubject"},
-        {"trigger":"Traversable","contents":"Traversable"}
+        "ArrayAccess",
+        "Countable",
+        "DateTimeInterface",
+        "Iterator",
+        "IteratorAggregate",
+        "JsonSerializable",
+        "OuterIterator",
+        "RecursiveIterator",
+        "Reflector",
+        "SeekableIterator",
+        "Serializable",
+        "SessionHandlerInterface",
+        "SessionIdInterface",
+        "SplObserver",
+        "SplSubject",
+        "Traversable"
     ]
 }

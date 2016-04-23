@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 5.6.14
+* PHP 5.6.20
 
 Extensions
 

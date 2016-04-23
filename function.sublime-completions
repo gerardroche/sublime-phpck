@@ -67,7 +67,7 @@
         {"trigger":"array_uintersect","contents":"array_uintersect(${1:arr1}, ${2:arr2}, ${3:callback_data_compare_func})"},
         {"trigger":"array_uintersect_assoc","contents":"array_uintersect_assoc(${1:arr1}, ${2:arr2}, ${3:callback_data_compare_func})"},
         {"trigger":"array_uintersect_uassoc","contents":"array_uintersect_uassoc(${1:arr1}, ${2:arr2}, ${3:callback_data_compare_func}, ${4:callback_key_compare_func})"},
-        {"trigger":"array_unique","contents":"array_unique(${1:arg})"},
+        {"trigger":"array_unique","contents":"array_unique(${1:arg}${2:, ${3:flags}})"},
         {"trigger":"array_unshift","contents":"array_unshift(${1:&stack}, ${2:vars})"},
         {"trigger":"array_values","contents":"array_values(${1:arg})"},
         {"trigger":"array_walk","contents":"array_walk(${1:&input}, ${2:funcname}${3:, ${4:userdata}})"},

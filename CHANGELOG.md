@@ -1,5 +1,9 @@
 # gerardroche/sublime-php-completions changelog
 
+## 0.14.0
+
+* Update: to PHP 5.6.20
+
 ## 0.13.0
 
 * Fixed: Work around ST issues when triggers contain certain characters

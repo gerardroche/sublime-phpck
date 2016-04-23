@@ -24,8 +24,10 @@
         "Serializable",
         "SessionHandlerInterface",
         "SessionIdInterface",
+        "SessionUpdateTimestampHandlerInterface",
         "SplObserver",
         "SplSubject",
+        "Throwable",
         "Traversable"
     ]
 }

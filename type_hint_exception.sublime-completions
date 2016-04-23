@@ -10,6 +10,7 @@
     "completions": [
         "BadFunctionCallException",
         "BadMethodCallException",
+        "ClosedGeneratorException",
         "DomainException",
         "DOMException",
         "ErrorException",

@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 5.6.20
+* PHP 7.0.5
 
 Extensions
 
@@ -12,7 +12,6 @@ Extensions
 * curl
 * date
 * dom
-* ereg
 * exif
 * fileinfo
 * filter
@@ -26,8 +25,6 @@ Extensions
 * libxml
 * mbstring
 * mcrypt
-* mhash
-* mysql
 * mysqli
 * mysqlnd
 * openssl

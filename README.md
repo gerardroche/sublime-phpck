@@ -48,6 +48,8 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 ## Installation
 
+*To use PHP 5.6 completions only, then manually install via Git and checkout the php-5.6 branch.*
+
 ### Package Control installation
 
 The preferred method of installation is via Package Control.

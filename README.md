@@ -16,7 +16,7 @@ Provides decent PHP completions.
 
 # Features
 
-* PHP [~5.6](http://semver.org)
+* PHP [~7.0](http://semver.org)
 * [PSR](http://www.php-fig.org) compliant
 * Scoped to minimise auto-complete noise
 * Language constructs

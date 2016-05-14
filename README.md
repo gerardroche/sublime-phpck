@@ -4,6 +4,8 @@ A plugin for Sublime Text.
 
 Provides decent PHP completions.
 
+Also try [PHP Grammar](https://packagecontrol.io/packages/php-grammar), [PHP Snippets](https://packagecontrol.io/packages/php-snippets), and [PHPUnit](https://github.com/gerardroche/sublime-phpunit).
+
 ## Overview
 
 * [Features](#features)
@@ -11,7 +13,6 @@ Provides decent PHP completions.
 * [Installation](#installation)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
-* [Complementary Plugins](#complementary-plugins)
 * [License](#license)
 
 # Features
@@ -48,7 +49,7 @@ To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility
 
 ## Installation
 
-*To use PHP 5.6 completions only, then manually install via Git and checkout the 5.x branch.*
+To use the old PHP 5.6 completions, manually install via Git and checkout the 5.x branch.
 
 ### Package Control installation
 
@@ -72,7 +73,7 @@ The preferred method of installation is via Package Control.
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
-3. Restart Sublime Text to complete installation. The features listed above should now be available.
+3. The features listed above will be available the next time Sublime Text is started..
 
 ## Contributing
 
@@ -81,15 +82,6 @@ Your issue reports and pull requests are always welcome.
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md).
-
-## Complementary Plugins
-
-* [PHP Grammar](https://github.com/gerardroche/sublime-php-grammar)
-* [PHP Completions](https://github.com/gerardroche/sublime-phpck)
-* [PHP Snippets](https://github.com/gerardroche/sublime-php-snippets)
-* [PHPUnit](https://github.com/gerardroche/sublime-phpunit)
-* [PHPUnit Completions](https://github.com/gerardroche/sublime-phpunit-completions)
-* [PHPUnit Snippets](https://github.com/gerardroche/sublime-phpunit-snippets)
 
 ## License
 

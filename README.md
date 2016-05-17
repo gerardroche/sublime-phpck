@@ -91,5 +91,5 @@ Released under the [BSD 3-Clause License](LICENSE).
 [PHP Completions]: https://packagecontrol.io/packages/PHP%20Completions%20Kit
 [PHP Snippets]: https://packagecontrol.io/packages/php-snippets
 [PHPUnit]: https://github.com/gerardroche/sublime-phpunit
-[PHPUnit Completions]: https://github.com/gerardroche/sublime-phpunit
-[PHPUnit Snippets]: https://github.com/gerardroche/sublime-phpunit
+[PHPUnit Completions]: https://github.com/gerardroche/sublime-phpunit-completions
+[PHPUnit Snippets]: https://github.com/gerardroche/sublime-phpunit-snippets

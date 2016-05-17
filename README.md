@@ -4,7 +4,7 @@ A plugin for Sublime Text.
 
 Provides decent PHP completions.
 
-Also try [PHP Grammar](https://packagecontrol.io/packages/php-grammar), [PHP Snippets](https://packagecontrol.io/packages/php-snippets), and [PHPUnit](https://github.com/gerardroche/sublime-phpunit).
+Works best with [PHP Grammar], [PHP Snippets], and [PHPUnit].
 
 ## Overview
 
@@ -73,7 +73,7 @@ The preferred method of installation is via Package Control.
         - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
         - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
         - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
-3. The features listed above will be available the next time Sublime Text is started..
+3. The features listed above will be available the next time Sublime Text is started.
 
 ## Contributing
 
@@ -86,3 +86,10 @@ See [CHANGELOG.md](CHANGELOG.md).
 ## License
 
 Released under the [BSD 3-Clause License](LICENSE).
+
+[PHP Grammar]: https://packagecontrol.io/packages/php-grammar
+[PHP Completions]: https://packagecontrol.io/packages/PHP%20Completions%20Kit
+[PHP Snippets]: https://packagecontrol.io/packages/php-snippets
+[PHPUnit]: https://github.com/gerardroche/sublime-phpunit
+[PHPUnit Completions]: https://github.com/gerardroche/sublime-phpunit
+[PHPUnit Snippets]: https://github.com/gerardroche/sublime-phpunit

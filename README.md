@@ -9,7 +9,7 @@
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime-phpck/tags)
 [![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
 
-Decent PHP completions for Sublime Text.
+PHP completions for Sublime Text.
 
 Works best with [PHP Grammar], [PHP Snippets], and [PHPUnit].
 

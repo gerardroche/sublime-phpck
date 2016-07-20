@@ -1381,6 +1381,7 @@
         {"trigger":"socket_create","contents":"socket_create(${1:domain}, ${2:type}, ${3:protocol})"},
         {"trigger":"socket_create_listen","contents":"socket_create_listen(${1:port}${2:, ${3:backlog}})"},
         {"trigger":"socket_create_pair","contents":"socket_create_pair(${1:domain}, ${2:type}, ${3:protocol}, ${4:&fd})"},
+        {"trigger":"socket_export_stream","contents":"socket_export_stream(${1:socket})"},
         {"trigger":"socket_get_option","contents":"socket_get_option(${1:socket}, ${2:level}, ${3:optname})"},
         {"trigger":"socket_get_status","contents":"socket_get_status(${1:fp})"},
         {"trigger":"socket_getopt","contents":"socket_getopt(${1:socket}, ${2:level}, ${3:optname})"},

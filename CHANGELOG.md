@@ -1,12 +1,16 @@
 # gerardroche/sublime-php-completions changelog
 
+## 0.16.0
+
+* Update: PHP 7.0.8
+
 ## 0.15.0
 
-* Update: to PHP 7.0.5
+* Update: PHP 7.0.5
 
 ## 0.14.0
 
-* Update: to PHP 5.6.20
+* Update: PHP 5.6.20
 
 ## 0.13.0
 

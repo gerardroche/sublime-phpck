@@ -139,6 +139,7 @@
         {"trigger":"opcache_huge_code_pages","contents":"opcache.huge_code_pages"},
         {"trigger":"opcache_inherited_hack","contents":"opcache.inherited_hack"},
         {"trigger":"opcache_interned_strings_buffer","contents":"opcache.interned_strings_buffer"},
+        {"trigger":"opcache_lockfile_path","contents":"opcache.lockfile_path"},
         {"trigger":"opcache_log_verbosity_level","contents":"opcache.log_verbosity_level"},
         {"trigger":"opcache_max_accelerated_files","contents":"opcache.max_accelerated_files"},
         {"trigger":"opcache_max_file_size","contents":"opcache.max_file_size"},

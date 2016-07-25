@@ -428,7 +428,7 @@
         {"trigger":"get_resources","contents":"get_resources(${1:type})"},
         {"trigger":"getcwd","contents":"getcwd()"},
         {"trigger":"getdate","contents":"getdate(${1:timestamp})"},
-        {"trigger":"getenv","contents":"getenv(${1:varname})"},
+        {"trigger":"getenv","contents":"getenv(${1:varname}${2:, ${3:local_only}})"},
         {"trigger":"gethostbyaddr","contents":"gethostbyaddr(${1:ip_address})"},
         {"trigger":"gethostbyname","contents":"gethostbyname(${1:hostname})"},
         {"trigger":"gethostbynamel","contents":"gethostbynamel(${1:hostname})"},

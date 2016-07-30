@@ -1,13 +1,13 @@
 # gerardroche/sublime-php-completions
 
-[![Author](http://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
+[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-phpck)
 [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat)](https://github.com/gerardroche/sublime-phpck/stargazers)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-phpck/master/LICENSE)
 
 [![Sublime version](https://img.shields.io/badge/sublime-v2|v3-lightgrey.svg?style=flat)](http://sublimetext.com)
-[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?maxAge=2592000?style=flat&label=release)](https://github.com/gerardroche/sublime-phpck/tags)
-[![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?maxAge=2592000?style=flat)](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
+[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-phpck/tags)
+[![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
 
 PHP completions for Sublime Text.
 

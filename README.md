@@ -2,8 +2,8 @@
 
 [![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-phpck)
-[![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat)](https://github.com/gerardroche/sublime-phpck/stargazers)
 [![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-phpck/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat)](https://github.com/gerardroche/sublime-phpck/stargazers)
 
 [![Sublime version](https://img.shields.io/badge/sublime-v2|v3-lightgrey.svg?style=flat)](https://sublimetext.com)
 [![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-phpck/tags)

@@ -3,7 +3,6 @@
 ## Unreleased
 
 * Update: PHP 7.0.9
-* Fixed: error disabling native completions
 
 ## 0.16.0
 

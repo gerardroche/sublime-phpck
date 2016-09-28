@@ -1,4 +1,5 @@
 import os
+
 import sublime
 
 def plugin_loaded():

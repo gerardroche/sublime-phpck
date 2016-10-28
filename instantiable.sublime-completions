@@ -6,8 +6,9 @@
     //     meta.catch
     //     meta.function.argument.typehinted
     //     string
+    //     meta.function.parameters
 
-    "scope": "source.php support.class - meta.catch - meta.function.argument.typehinted - string",
+    "scope": "source.php support.class - meta.catch - meta.function.argument.typehinted - string - meta.function.parameters",
     "completions": [
         {"trigger":"__PHP_Incomplete_Class","contents":"__PHP_Incomplete_Class()"},
         {"trigger":"AppendIterator","contents":"AppendIterator()"},

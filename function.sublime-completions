@@ -13,8 +13,19 @@
     //     string
     //     support.class
     //     variable.other
+    // source.php meta.class.php meta.block.php meta.function.php meta.block.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.function.arguments
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
 
-    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other",
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other, source.php meta.class.php meta.block.php meta.function.php meta.block.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.use - string - support.class - variable.other",
     "completions": [
         {"trigger":"_","contents":"_(${1:msgid})"},
         {"trigger":"abs","contents":"abs(${1:number})"},

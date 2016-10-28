@@ -1,7 +1,8 @@
-# gerardroche/sublime-php-completions changelog
+# PHP-COMPLETIONS CHANGELOG
 
-## Unreleased
+## 0.17.0
 
+* Fixed: #10 several issues with scopes in newer builds of ST
 * Update: PHP 7.0.9
 
 ## 0.16.0

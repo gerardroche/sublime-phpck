@@ -1,0 +1,63 @@
+{
+    // scope:
+    //
+    // source.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.class
+    //     meta.function.arguments
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    // source.php meta.class.php meta.block.php meta.function.php meta.block.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.function.arguments
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.use - string - support.class - variable.other, source.php meta.class.php meta.block.php meta.function.php meta.block.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.use - string - support.class - variable.other",
+    "completions": [
+        {"trigger":"mcrypt_create_iv","contents":"mcrypt_create_iv(${1:size}${2:, ${3:source}})"},
+        {"trigger":"mcrypt_decrypt","contents":"mcrypt_decrypt(${1:cipher}, ${2:key}, ${3:data}, ${4:mode}, ${5:iv})"},
+        {"trigger":"mcrypt_enc_get_algorithms_name","contents":"mcrypt_enc_get_algorithms_name(${1:td})"},
+        {"trigger":"mcrypt_enc_get_block_size","contents":"mcrypt_enc_get_block_size(${1:td})"},
+        {"trigger":"mcrypt_enc_get_iv_size","contents":"mcrypt_enc_get_iv_size(${1:td})"},
+        {"trigger":"mcrypt_enc_get_key_size","contents":"mcrypt_enc_get_key_size(${1:td})"},
+        {"trigger":"mcrypt_enc_get_modes_name","contents":"mcrypt_enc_get_modes_name(${1:td})"},
+        {"trigger":"mcrypt_enc_get_supported_key_sizes","contents":"mcrypt_enc_get_supported_key_sizes(${1:td})"},
+        {"trigger":"mcrypt_enc_is_block_algorithm","contents":"mcrypt_enc_is_block_algorithm(${1:td})"},
+        {"trigger":"mcrypt_enc_is_block_algorithm_mode","contents":"mcrypt_enc_is_block_algorithm_mode(${1:td})"},
+        {"trigger":"mcrypt_enc_is_block_mode","contents":"mcrypt_enc_is_block_mode(${1:td})"},
+        {"trigger":"mcrypt_enc_self_test","contents":"mcrypt_enc_self_test(${1:td})"},
+        {"trigger":"mcrypt_encrypt","contents":"mcrypt_encrypt(${1:cipher}, ${2:key}, ${3:data}, ${4:mode}, ${5:iv})"},
+        {"trigger":"mcrypt_generic","contents":"mcrypt_generic(${1:td}, ${2:data})"},
+        {"trigger":"mcrypt_generic_deinit","contents":"mcrypt_generic_deinit(${1:td})"},
+        {"trigger":"mcrypt_generic_init","contents":"mcrypt_generic_init(${1:td}, ${2:key}, ${3:iv})"},
+        {"trigger":"mcrypt_get_block_size","contents":"mcrypt_get_block_size(${1:cipher}, ${2:module})"},
+        {"trigger":"mcrypt_get_cipher_name","contents":"mcrypt_get_cipher_name(${1:cipher})"},
+        {"trigger":"mcrypt_get_iv_size","contents":"mcrypt_get_iv_size(${1:cipher}, ${2:module})"},
+        {"trigger":"mcrypt_get_key_size","contents":"mcrypt_get_key_size(${1:cipher}, ${2:module})"},
+        {"trigger":"mcrypt_list_algorithms","contents":"mcrypt_list_algorithms(${1:lib_dir})"},
+        {"trigger":"mcrypt_list_modes","contents":"mcrypt_list_modes(${1:lib_dir})"},
+        {"trigger":"mcrypt_module_close","contents":"mcrypt_module_close(${1:td})"},
+        {"trigger":"mcrypt_module_get_algo_block_size","contents":"mcrypt_module_get_algo_block_size(${1:algorithm}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_get_algo_key_size","contents":"mcrypt_module_get_algo_key_size(${1:algorithm}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_get_supported_key_sizes","contents":"mcrypt_module_get_supported_key_sizes(${1:algorithm}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_is_block_algorithm","contents":"mcrypt_module_is_block_algorithm(${1:algorithm}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_is_block_algorithm_mode","contents":"mcrypt_module_is_block_algorithm_mode(${1:mode}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_is_block_mode","contents":"mcrypt_module_is_block_mode(${1:mode}${2:, ${3:lib_dir}})"},
+        {"trigger":"mcrypt_module_open","contents":"mcrypt_module_open(${1:cipher}, ${2:cipher_directory}, ${3:mode}, ${4:mode_directory})"},
+        {"trigger":"mcrypt_module_self_test","contents":"mcrypt_module_self_test(${1:algorithm}${2:, ${3:lib_dir}})"},
+        {"trigger":"mdecrypt_generic","contents":"mdecrypt_generic(${1:td}, ${2:data})"}
+    ]
+}

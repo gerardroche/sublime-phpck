@@ -1,97 +1,53 @@
-# PHP Completions Kit
+# WHAT PHP COMPLETIONS KIT IS
 
-[![Author](https://img.shields.io/badge/author-@gerardroche-blue.svg?style=flat)](https://twitter.com/gerardroche)
-[![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/gerardroche/sublime-phpck)
-[![License](https://img.shields.io/badge/license-BSD--3-blue.svg?style=flat)](https://raw.githubusercontent.com/gerardroche/sublime-phpck/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat)](https://github.com/gerardroche/sublime-phpck/stargazers)
+[![Minimum Sublime version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg)](https://sublimetext.com) [![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg)](https://packagecontrol.io/packages/PHP%20Completions%20Kit) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg)](https://github.com/gerardroche/sublime-phpck/stargazers) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?label=stable)](https://github.com/gerardroche/sublime-phpck/tags) [![Source Code](https://img.shields.io/badge/source-github-blue.svg)](https://github.com/gerardroche/sublime-phpck) [![Author](https://img.shields.io/badge/author-gerardroche-blue.svg)](https://twitter.com/gerardroche)
 
-[![Sublime version](https://img.shields.io/badge/sublime-v2|v3-lightgrey.svg?style=flat)](https://sublimetext.com)
-[![Latest version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?label=release&style=flat&maxAge=2592000)](https://github.com/gerardroche/sublime-phpck/tags)
-[![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?style=flat&maxAge=2592000)](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
+Provides PHP completions for Sublime Text.
 
-PHP completions for Sublime Text.
-
-**Works best with [PHP Grammar] and [PHP Snippets].**
-
-## Overview
+## OVERVIEW
 
 * [Features](#features)
-* [Key Bindings](#key-bindings)
 * [Installation](#installation)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [License](#license)
 
-# Features
+# FEATURES
 
 * PHP [~7.0](http://semver.org)
-* [PSR](http://www.php-fig.org) compliant
+* [PSR](http://www.php-fig.org) compatible
 * Scoped to minimise auto-complete noise
 * Language constructs
 * Magic constants
 * Magic methods
 * Constants
 * Functions
-* Type hints e.g. begin typing at `class Name extends |`, `function(|`, `/* @var | */`, and any other scope where a type hint is valid.
-    + Exception type hints only e.g. begin typing at `try { } catch(|`
-    + Interface type hints only e.g. begin typing at `class name implements |`
-    + Instantiable classes only e.g. begin typing at `new |`
-* Supported extensions:
-    ```
-    bcmath  bz2 calendar Core ctype  curl  date  dom ereg exif fileinfo filter
-    ftp  gd  gettext hash iconv  intl  json  libxml  mbstring  mcrypt  mhash
-    mysql  mysqli  mysqlnd openssl  pcntl pcre PDO  pdo_mysql pdo_sqlite Phar
-    posix  readline  Reflection  session shmop  SimpleXML soap sockets  SPL
-    sqlite3  standard  sysvmsg sysvsem  sysvshm tidy tokenizer  wddx  xdebug
-    xml xmlreader  xmlwriter Zend OPcache zip  zlib
-    ```
+* Type hints: Classes, Interfaces, Exceptions, Instantiables, etc.
+* Supported extensions: `bcmath`, `bz2`, `calendar`, `Core`, `ctype`, `curl`, `date`, `dom`, `ereg`, `exif`, `fileinfo`, `filter`, `ftp`, `gd`, `gettext`, `hash`, `iconv`, `intl`, `json`, `libxml`, `mbstring`, `mcrypt`, `mhash`, `mysql`, `mysqli`, `mysqlnd`, `openssl`, `pcntl`, `pcre`, `PDO`, `pdo_mysql`, `pdo_sqlite`, `Phar`, `posix`, `readline`, `Reflection`, `session`, `shmop`, `SimpleXML`, `soap`, `sockets`, `SPL`, `sqlite3`, `standard`, `sysvmsg`, `sysvsem`, `sysvshm`, `tidy`, `tokenizer`, `wddx`, `xdebug`, `xml`, `xmlreader`, `xmlwriter`, `Zend`, `OPcache`, `zip`, `zlib`.
 
-## Key Bindings
-
-| OS X | Windows | Linux | Description |
-|------|---------|-------|-------------|
-| <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
-
-To enable [tab-completions](http://docs.sublimetext.info/en/latest/extensibility/completions.html#tab-completed-completions) set `"tab_completion": true` in `Preferences > Settings - User`.
-
-## Installation
-
-To use the old PHP 5.6 completions, manually install via Git and checkout the 5.x branch.
+## INSTALLATION
 
 ### Package Control installation
 
-The preferred method of installation is via [Package Control].
+The preferred method of installation is [Package Control](https://packagecontrol.io/browse/authors/gerardroche).
 
 ### Manual installation
 
 1. Close Sublime Text.
-2. Download or clone this repository to a directory named `php-completions` in the Sublime Text Packages directory for your platform:
-    * Sublime Text 3
-        - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/php-completions`
-        - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/php-completions`
-        - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 3/Packages/php-completions`
-    * Sublime Text 2
-        - Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-2/Packages/php-completions`
-        - OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/php-completions`
-        - Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 2/Packages/php-completions`
-3. The features listed above will be available the next time Sublime Text is started.
+2. Download or clone this repository to a directory named **`PHP Completions Kit`** in the Sublime Text Packages directory for your platform:
+   * Linux: `git clone https://github.com/gerardroche/sublime-phpck.git ~/.config/sublime-text-3/Packages/PHP Completions Kit`
+   * OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PHP Completions Kit`
+   * Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 3/Packages/PHP Completions Kit`
+3. Done!
 
-## Contributing
+## CONTRIBUTING
 
 Your issue reports and pull requests are always welcome.
 
-## Changelog
+## CHANGELOG
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-## License
+## LICENSE
 
 Released under the [BSD 3-Clause License](LICENSE).
-
-[Package Control]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Grammar]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Completions]: https://packagecontrol.io/browse/authors/gerardroche
-[PHP Snippets]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit Completions]: https://packagecontrol.io/browse/authors/gerardroche
-[PHPUnit Snippets]: https://packagecontrol.io/browse/authors/gerardroche

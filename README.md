@@ -8,6 +8,7 @@ Provides PHP completions for Sublime Text.
 
 * [Features](#features)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Contributing](#contributing)
 * [Changelog](#changelog)
 * [License](#license)
@@ -39,6 +40,50 @@ The preferred method of installation is [Package Control](https://packagecontrol
    * OS X: `git clone https://github.com/gerardroche/sublime-phpck.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/PHP Completions Kit`
    * Windows: `git clone https://github.com/gerardroche/sublime-phpck.git %APPDATA%\Sublime/ Text/ 3/Packages/PHP Completions Kit`
 3. Done!
+
+## USAGE
+
+By default, completions are triggered automatically when typing. If the setting `auto_complete` is set to false then completions must be manually triggered.
+
+Completions are context aware, meaning they are only provided in relevant contexts e.g. type hints will trigger at `class Name extends |`, `function(|`, `/* @var | */`, exception trigger at `try {} catch(|`, interfaces at `class name implements |`, instantiables `new |`, etc.
+
+Relating Sublime Text key bindings:
+
+| OS X | Windows | Linux | Description |
+|------|---------|-------|-------------|
+| <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Ctrl</kbd>+<kbd>Space</kbd> | <kbd>Alt</kbd>+<kbd>/</kbd> | Activate completions |
+
+Relating Sublime Text settings:
+
+    // By default, auto complete will commit the current completion on enter.
+    // This setting can be used to make it complete on tab instead.
+    // Completing on tab is generally a superior option, as it removes
+    // ambiguity between committing the completion and inserting a newline.
+    "auto_complete_commit_on_tab": false,
+
+    // Controls if auto complete is shown when snippet fields are active.
+    // Only relevant if auto_complete_commit_on_tab is true.
+    "auto_complete_with_fields": false,
+
+Set them globally `Preferences > Settings`
+
+```json
+{
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_with_fields": true
+}
+```
+
+Set them per-project: `Project > Edit Project`
+
+```json
+{
+    "settings": {
+        "auto_complete_commit_on_tab": true,
+        "auto_complete_with_fields": true
+    }
+}
+```
 
 ## CONTRIBUTING
 

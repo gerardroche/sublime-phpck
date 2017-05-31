@@ -2,6 +2,12 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## Unreleased
+
+### Fixed
+
+* Fixed [#13](https://github.com/gerardroche/sublime-phpck/issues/13): completions should not trigger in the middle of a sentence
+
 ## 0.17.0
 
 ### Added

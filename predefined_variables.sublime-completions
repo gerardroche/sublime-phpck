@@ -1,0 +1,44 @@
+{
+    // scopes:
+    //
+    // source.php - variable.other.php
+
+    "scope": "source.php - variable.other.php",
+    "completions": [
+        {"trigger":"_SERVER['CONTENT_LENGTH']\tPredefined Variables","contents":"\\$_SERVER['CONTENT_LENGTH'];"},
+        {"trigger":"_SERVER['CONTENT_TYPE']\tPredefined Variables","contents":"\\$_SERVER['CONTENT_TYPE'];"},
+        {"trigger":"_SERVER['DOCUMENT_ROOT']\tPredefined Variables","contents":"\\$_SERVER['DOCUMENT_ROOT'];"},
+        {"trigger":"_SERVER['DOCUMENT_URI']\tPredefined Variables","contents":"\\$_SERVER['DOCUMENT_URI'];"},
+        {"trigger":"_SERVER['HOME']\tPredefined Variables","contents":"\\$_SERVER['HOME'];"},
+        {"trigger":"_SERVER['HTTP_ACCEPT']\tPredefined Variables","contents":"\\$_SERVER['HTTP_ACCEPT'];"},
+        {"trigger":"_SERVER['HTTP_ACCEPT_ENCODING']\tPredefined Variables","contents":"\\$_SERVER['HTTP_ACCEPT_ENCODING'];"},
+        {"trigger":"_SERVER['HTTP_ACCEPT_LANGUAGE']\tPredefined Variables","contents":"\\$_SERVER['HTTP_ACCEPT_LANGUAGE'];"},
+        {"trigger":"_SERVER['HTTP_AUTHORIZATION']\tPredefined Variables","contents":"\\$_SERVER['HTTP_AUTHORIZATION'];"},
+        {"trigger":"_SERVER['HTTP_CACHE_CONTROL']\tPredefined Variables","contents":"\\$_SERVER['HTTP_CACHE_CONTROL'];"},
+        {"trigger":"_SERVER['HTTP_CONNECTION']\tPredefined Variables","contents":"\\$_SERVER['HTTP_CONNECTION'];"},
+        {"trigger":"_SERVER['HTTP_COOKIE']\tPredefined Variables","contents":"\\$_SERVER['HTTP_COOKIE'];"},
+        {"trigger":"_SERVER['HTTP_HOST']\tPredefined Variables","contents":"\\$_SERVER['HTTP_HOST'];"},
+        {"trigger":"_SERVER['HTTP_REFERER']\tPredefined Variables","contents":"\\$_SERVER['HTTP_REFERER'];"},
+        {"trigger":"_SERVER['HTTP_USER_AGENT']\tPredefined Variables","contents":"\\$_SERVER['HTTP_USER_AGENT'];"},
+        {"trigger":"_SERVER['PATH']\tPredefined Variables","contents":"\\$_SERVER['PATH'];"},
+        {"trigger":"_SERVER['PATH_TRANSLATED']\tPredefined Variables","contents":"\\$_SERVER['PATH_TRANSLATED'];"},
+        {"trigger":"_SERVER['PHP_AUTH_DIGEST']\tPredefined Variables","contents":"\\$_SERVER['PHP_AUTH_DIGEST'];"},
+        {"trigger":"_SERVER['PHP_SELF']\tPredefined Variables","contents":"\\$_SERVER['PHP_SELF'];"},
+        {"trigger":"_SERVER['QUERY_STRING']\tPredefined Variables","contents":"\\$_SERVER['QUERY_STRING'];"},
+        {"trigger":"_SERVER['REDIRECT_STATUS']\tPredefined Variables","contents":"\\$_SERVER['REDIRECT_STATUS'];"},
+        {"trigger":"_SERVER['REMOTE_ADDR']\tPredefined Variables","contents":"\\$_SERVER['REMOTE_ADDR'];"},
+        {"trigger":"_SERVER['REMOTE_PORT']\tPredefined Variables","contents":"\\$_SERVER['REMOTE_PORT'];"},
+        {"trigger":"_SERVER['REQUEST_METHOD']\tPredefined Variables","contents":"\\$_SERVER['REQUEST_METHOD'];"},
+        {"trigger":"_SERVER['REQUEST_TIME']\tPredefined Variables","contents":"\\$_SERVER['REQUEST_TIME'];"},
+        {"trigger":"_SERVER['REQUEST_TIME_FLOAT']\tPredefined Variables","contents":"\\$_SERVER['REQUEST_TIME_FLOAT'];"},
+        {"trigger":"_SERVER['REQUEST_URI']\tPredefined Variables","contents":"\\$_SERVER['REQUEST_URI'];"},
+        {"trigger":"_SERVER['SCRIPT_FILENAME']\tPredefined Variables","contents":"\\$_SERVER['SCRIPT_FILENAME'];"},
+        {"trigger":"_SERVER['SCRIPT_NAME']\tPredefined Variables","contents":"\\$_SERVER['SCRIPT_NAME'];"},
+        {"trigger":"_SERVER['SERVER_ADDR']\tPredefined Variables","contents":"\\$_SERVER['SERVER_ADDR'];"},
+        {"trigger":"_SERVER['SERVER_NAME']\tPredefined Variables","contents":"\\$_SERVER['SERVER_NAME'];"},
+        {"trigger":"_SERVER['SERVER_PORT']\tPredefined Variables","contents":"\\$_SERVER['SERVER_PORT'];"},
+        {"trigger":"_SERVER['SERVER_PROTOCOL']\tPredefined Variables","contents":"\\$_SERVER['SERVER_PROTOCOL'];"},
+        {"trigger":"_SERVER['SERVER_SOFTWARE']\tPredefined Variables","contents":"\\$_SERVER['SERVER_SOFTWARE'];"},
+        {"trigger":"_SERVER['USER']\tPredefined Variables","contents":"\\$_SERVER['USER'];"}
+    ]
+}

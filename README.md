@@ -1,6 +1,6 @@
 # WHAT PHP COMPLETIONS KIT IS
 
-[![Minimum Sublime version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg)](https://sublimetext.com) [![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg)](https://packagecontrol.io/packages/PHP%20Completions%20Kit) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg)](https://github.com/gerardroche/sublime-phpck/stargazers) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?label=stable)](https://github.com/gerardroche/sublime-phpck/tags) [![Source Code](https://img.shields.io/badge/source-github-blue.svg)](https://github.com/gerardroche/sublime-phpck) [![Author](https://img.shields.io/badge/author-gerardroche-blue.svg)](https://twitter.com/gerardroche)
+[![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Stable Version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?style=flat-square&label=stable)](https://github.com/gerardroche/sublime-phpck/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat-square)](https://github.com/gerardroche/sublime-phpck/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?style=flat-square)](https://packagecontrol.io/packages/PHP%20Completions%20Kit) [![Author](https://img.shields.io/badge/twitter-gerardroche-blue.svg?style=flat-square)](https://twitter.com/gerardroche)
 
 Provides PHP completions for Sublime Text.
 
@@ -15,7 +15,7 @@ Provides PHP completions for Sublime Text.
 
 # FEATURES
 
-* PHP [~7.0](http://semver.org)
+* PHP ~7.0
 * [PSR](http://www.php-fig.org) compatible
 * Scoped to minimise auto-complete noise
 * Language constructs

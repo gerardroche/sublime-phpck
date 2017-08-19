@@ -106,7 +106,7 @@
         {"trigger":"PDOException","contents":"PDOException(${1:message}${2:, ${3:code}${4:, ${5:previous}}})"},
         {"trigger":"PDORow","contents":"PDORow()"},
         {"trigger":"PDOStatement","contents":"PDOStatement()"},
-        {"trigger":"Phar","contents":"Phar(${1:filename}${2:, ${3:flags}${4:, ${5:alias}${6:, ${7:fileformat}}}})"},
+        {"trigger":"Phar","contents":"Phar(${1:filename}${2:, ${3:flags}${4:, ${5:alias}}})"},
         {"trigger":"PharData","contents":"PharData(${1:filename}${2:, ${3:flags}${4:, ${5:alias}${6:, ${7:fileformat}}}})"},
         {"trigger":"PharException","contents":"PharException(${1:message}${2:, ${3:code}${4:, ${5:previous}}})"},
         {"trigger":"PharFileInfo","contents":"PharFileInfo(${1:filename})"},

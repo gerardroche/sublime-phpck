@@ -166,6 +166,7 @@
         {"trigger":"UnexpectedValueException","contents":"UnexpectedValueException(${1:message}${2:, ${3:code}${4:, ${5:previous}}})"},
         {"trigger":"XMLReader","contents":"XMLReader()"},
         {"trigger":"XMLWriter","contents":"XMLWriter()"},
+        {"trigger":"XSLTProcessor","contents":"XSLTProcessor()"},
         {"trigger":"ZipArchive","contents":"ZipArchive()"}
     ]
 }

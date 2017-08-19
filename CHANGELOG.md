@@ -2,6 +2,12 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.1.0 - 2017-08-09
+
+### Added
+
+* Added: `xmlrpc` and `xsl` extensions
+
 ## 1.0.1 - 2017-08-09
 
 ### Added

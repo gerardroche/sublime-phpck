@@ -54,7 +54,9 @@ Extensions
 * xdebug
 * xml
 * xmlreader
+* xmlrpc
 * xmlwriter
+* xsl
 * Zend OPcache
 * zip
 * zlib

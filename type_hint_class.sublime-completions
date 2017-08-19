@@ -157,6 +157,7 @@
         "UConverter",
         "XMLReader",
         "XMLWriter",
+        "XSLTProcessor",
         "ZipArchive"
     ]
 }

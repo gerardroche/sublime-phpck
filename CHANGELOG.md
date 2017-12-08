@@ -2,6 +2,12 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.2.0 - 2017-12-08
+
+### Added
+
+* Added: Updated to 7.2.0
+
 ## 1.1.0 - 2017-08-09
 
 ### Added

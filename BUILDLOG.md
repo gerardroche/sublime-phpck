@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 7.1.8
+* PHP 7.2.0
 
 Extensions
 
@@ -24,7 +24,6 @@ Extensions
 * json
 * libxml
 * mbstring
-* mcrypt
 * mysqli
 * mysqlnd
 * openssl

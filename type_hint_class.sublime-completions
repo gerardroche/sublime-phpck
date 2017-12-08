@@ -67,6 +67,7 @@
         "finfo",
         "Generator",
         "GlobIterator",
+        "HashContext",
         "InfiniteIterator",
         "IntlBreakIterator",
         "IntlCalendar",

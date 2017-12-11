@@ -1,0 +1,20 @@
+{
+    // scope:
+    //
+    // source.php meta.class meta.function.return-type
+    // source.php meta.function.parameters meta.group
+    //   blacklist:
+    //     variable
+
+    "scope": "source.php meta.class meta.function.return-type, source.php meta.function.parameters meta.group - variable",
+    "completions": [
+        "array",
+        "bool",
+        "callable",
+        "float",
+        "int",
+        "iterable",
+        "self",
+        "string"
+    ]
+}

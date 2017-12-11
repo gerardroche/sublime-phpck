@@ -3,12 +3,14 @@
     //
     // source.php comment.block
     // source.php meta.class entity.other.inherited-class
+    // source.php meta.class meta.function.return-type
     // source.php meta.function.arguments
     //   blacklist:
     //     variable.other
+    //     variable.parameter
     // source.php meta.use
 
-    "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.function.arguments - variable.other, source.php meta.use",
+    "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.class meta.function.return-type, source.php meta.function.arguments - variable.other - variable.parameter, source.php meta.use",
     "completions": [
         "__PHP_Incomplete_Class",
         "AppendIterator",

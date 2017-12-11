@@ -2,6 +2,16 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## Unreleased
+
+### Added
+
+* Added: Return type hints
+
+### Fixed
+
+* Fixed [#11](https://github.com/gerardroche/sublime-phpck/issues/11): bool is auto-completed to boolval() in return typ
+
 ## 1.2.0 - 2017-12-08
 
 ### Added

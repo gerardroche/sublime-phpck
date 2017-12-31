@@ -45,7 +45,7 @@ OS X | Windows | Linux | Description
 
 Relating Sublime Text settings:
 
-```json
+```text
 {
     // By default, auto complete will commit the current completion on enter.
     // This setting can be used to make it complete on tab instead.

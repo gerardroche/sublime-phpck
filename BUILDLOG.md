@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 7.2.0
+* PHP 7.2.6
 
 Extensions
 

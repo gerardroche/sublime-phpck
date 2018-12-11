@@ -23,6 +23,7 @@
         "CallbackFilterIterator",
         "Closure",
         "Collator",
+        "CompileError",
         "CURLFile",
         "DateInterval",
         "DatePeriod",

@@ -18,6 +18,7 @@
         "Exception",
         "IntlException",
         "InvalidArgumentException",
+        "JsonException",
         "LengthException",
         "LogicException",
         "mysqli_sql_exception",

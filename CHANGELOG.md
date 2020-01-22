@@ -2,6 +2,24 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.6.0
+
+### Added
+
+* Added: Update to support ST4
+
+## 1.5.0
+
+### Added
+
+* Added: Update to 7.3.0
+
+## 1.4.0
+
+### Added
+
+* Added: Update to 7.2.6
+
 ## 1.3.0
 
 ### Added

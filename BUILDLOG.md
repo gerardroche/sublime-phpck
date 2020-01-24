@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 7.3.0
+* PHP 7.4.1
 
 Extensions
 
@@ -49,7 +49,6 @@ Extensions
 * sysvshm
 * tidy
 * tokenizer
-* wddx
 * xdebug
 * xml
 * xmlreader

@@ -2,49 +2,36 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 1.6.0
+## 1.7.0 - 2020-01-24
 
-### Added
+* Added: Update to PHP 7.4.1
+
+## 1.6.0
 
 * Added: Update to support ST4
 
 ## 1.5.0
 
-### Added
-
 * Added: Update to 7.3.0
 
 ## 1.4.0
-
-### Added
 
 * Added: Update to 7.2.6
 
 ## 1.3.0
 
-### Added
-
 * Added: Return type hints
-
-### Fixed
-
 * Fixed [#11](https://github.com/gerardroche/sublime-phpck/issues/11): bool is auto-completed to boolval() in return typ
 
 ## 1.2.0 - 2017-12-08
-
-### Added
 
 * Added: Updated to 7.2.0
 
 ## 1.1.0 - 2017-08-09
 
-### Added
-
 * Added: `xmlrpc` and `xsl` extensions
 
 ## 1.0.1 - 2017-08-09
-
-### Added
 
 * Update to PHP 7.1.8
 
@@ -54,35 +41,22 @@ Version 1.0.0 release :)
 
 ## 0.18.0
 
-### Added
-
 * Update to PHP 7.1.1
 
 ## 0.17.0
 
-### Added
-
 * Update to PHP 7.0.9
-
-### Fixed
-
 * Fixed: #10 several issues with scopes in newer builds of ST
 
 ## 0.16.0
-
-### Added
 
 * Update to PHP 7.0.8
 
 ## 0.15.0
 
-### Added
-
 * Update to PHP 7.0.5
 
 ## 0.14.0
-
-### Added
 
 * Update to PHP 5.6.20
 

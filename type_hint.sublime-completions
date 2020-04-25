@@ -14,7 +14,11 @@
         "float",
         "int",
         "iterable",
+        "null",
+        "object",
+        "parent",
         "self",
-        "string"
+        "string",
+        "void"
     ]
 }

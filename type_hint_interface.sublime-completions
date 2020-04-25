@@ -16,6 +16,8 @@
         "ArrayAccess",
         "Countable",
         "DateTimeInterface",
+        "DOMChildNode",
+        "DOMParentNode",
         "Iterator",
         "IteratorAggregate",
         "JsonSerializable",
@@ -29,6 +31,7 @@
         "SessionUpdateTimestampHandlerInterface",
         "SplObserver",
         "SplSubject",
+        "Stringable",
         "Throwable",
         "Traversable"
     ]

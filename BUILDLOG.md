@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 7.4.1
+* PHP 8.0.0
 
 Extensions
 

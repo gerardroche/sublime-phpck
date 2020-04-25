@@ -18,7 +18,7 @@
         {"trigger":"__invoke","contents":"__invoke($1)"},
         {"trigger":"__isset","contents":"__isset(${1:name})"},
         {"trigger":"__set","contents":"__set(${1:name}, ${2:value})"},
-        {"trigger":"__set_state","contents":"__set_state(${1:(array) properties})"},
+        {"trigger":"__set_state","contents":"__set_state(${1:array:properties})"},
         {"trigger":"__sleep","contents":"__sleep()"},
         {"trigger":"__toString","contents":"__toString()"},
         {"trigger":"__unset","contents":"__unset(${1:name})"},

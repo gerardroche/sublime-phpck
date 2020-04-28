@@ -8,20 +8,20 @@
 
     "scope": "source.php constant.other - constant.other.class, source.php support.function.magic",
     "completions": [
-        {"trigger":"__call","contents":"__call(${1:name}, ${2:arguments})"},
-        {"trigger":"__callStatic","contents":"__callStatic(${1:name}, ${2:arguments})"},
-        {"trigger":"__clone","contents":"__clone()"},
-        {"trigger":"__construct","contents":"__construct($1)"},
-        {"trigger":"__debugInfo","contents":"__debugInfo()"},
-        {"trigger":"__destruct","contents":"__destruct()"},
-        {"trigger":"__get","contents":"__get(${1:name})"},
-        {"trigger":"__invoke","contents":"__invoke($1)"},
-        {"trigger":"__isset","contents":"__isset(${1:name})"},
-        {"trigger":"__set","contents":"__set(${1:name}, ${2:value})"},
-        {"trigger":"__set_state","contents":"__set_state(${1:array:properties})"},
-        {"trigger":"__sleep","contents":"__sleep()"},
-        {"trigger":"__toString","contents":"__toString()"},
-        {"trigger":"__unset","contents":"__unset(${1:name})"},
-        {"trigger":"__wakeup","contents":"__wakeup()"}
+        {"trigger":"__call","contents":"__call(${1:name}, ${2:arguments})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__callStatic","contents":"__callStatic(${1:name}, ${2:arguments})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__clone","contents":"__clone()","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__construct","contents":"__construct($1)","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__debugInfo","contents":"__debugInfo()","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__destruct","contents":"__destruct()","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__get","contents":"__get(${1:name})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__invoke","contents":"__invoke($1)","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__isset","contents":"__isset(${1:name})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__set","contents":"__set(${1:name}, ${2:value})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__set_state","contents":"__set_state(${1:array:properties})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__sleep","contents":"__sleep()","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__toString","contents":"__toString()","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__unset","contents":"__unset(${1:name})","kind":["function","m","Method"],"annotation":"Magic Method"},
+        {"trigger":"__wakeup","contents":"__wakeup()","kind":["function","m","Method"],"annotation":"Magic Method"}
     ]
 }

@@ -8,17 +8,17 @@
 
     "scope": "source.php meta.class meta.function.return-type, source.php meta.function.parameters meta.group - variable",
     "completions": [
-        "array",
-        "bool",
-        "callable",
-        "float",
-        "int",
-        "iterable",
-        "null",
-        "object",
-        "parent",
-        "self",
-        "string",
-        "void"
+        {"trigger":"array","kind":"type","annotation":"Type Hint"},
+        {"trigger":"bool","kind":"type","annotation":"Type Hint"},
+        {"trigger":"callable","kind":"type","annotation":"Type Hint"},
+        {"trigger":"float","kind":"type","annotation":"Type Hint"},
+        {"trigger":"int","kind":"type","annotation":"Type Hint"},
+        {"trigger":"iterable","kind":"type","annotation":"Type Hint"},
+        {"trigger":"null","kind":"type","annotation":"Type Hint"},
+        {"trigger":"object","kind":"type","annotation":"Type Hint"},
+        {"trigger":"parent","kind":"type","annotation":"Type Hint"},
+        {"trigger":"self","kind":"type","annotation":"Type Hint"},
+        {"trigger":"string","kind":"type","annotation":"Type Hint"},
+        {"trigger":"void","kind":"type","annotation":"Type Hint"}
     ]
 }

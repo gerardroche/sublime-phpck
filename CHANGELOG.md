@@ -2,6 +2,11 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.8.0 - 2020-04-28
+
+* Added: Argument type hints
+* Added: Update to PHP 8.0-dev
+
 ## 1.7.0 - 2020-01-24
 
 * Added: Update to PHP 7.4.1

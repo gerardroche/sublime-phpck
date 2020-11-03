@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.10.0 - Unrelased
+
+* Added: Update to latest PHP 8.0-dev
+
 ## 1.9.0 - 2020-04-29
 
 * Added: Support for ST4 completions

@@ -1,0 +1,52 @@
+{
+    // scope:
+    //
+    // source.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.class
+    //     meta.function.arguments
+    //     meta.function.parameters
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //     variable.parameter
+    //     meta.function.return-type
+    // source.php meta.class.php meta.block.php meta.function.php meta.block.php
+    //   blacklist:
+    //     comment
+    //     constant.other.class
+    //     entity
+    //     meta.catch
+    //     meta.function.arguments
+    //     meta.function.parameters
+    //     meta.use
+    //     string
+    //     support.class
+    //     variable.other
+    //     variable.parameter
+    //     meta.function.return-type
+
+    "scope": "source.php - comment - constant.other.class - entity - meta.catch - meta.class - meta.function.arguments - meta.function.parameters - meta.use - string - support.class - variable.other - variable.parameter - meta.function.return-type, source.php meta.class.php meta.block.php meta.function.php meta.block.php - comment - constant.other.class - entity - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - support.class - variable.other - variable.parameter - meta.function.return-type",
+    "completions": [
+        {"trigger":"libxml_disable_entity_loader","contents":"libxml_disable_entity_loader(${1:bool:disable=true})","kind":"function","annotation":"deprecated libxml Function"},
+        {"trigger":"openssl_free_key","contents":"openssl_free_key(${1:OpenSSLAsymmetricKey:key})","kind":"function","annotation":"deprecated openssl Function"},
+        {"trigger":"openssl_pkey_free","contents":"openssl_pkey_free(${1:OpenSSLAsymmetricKey:key})","kind":"function","annotation":"deprecated openssl Function"},
+        {"trigger":"openssl_x509_free","contents":"openssl_x509_free(${1:OpenSSLCertificate:certificate})","kind":"function","annotation":"deprecated openssl Function"},
+        {"trigger":"shmop_close","contents":"shmop_close(${1:Shmop:shmop})","kind":"function","annotation":"deprecated shmop Function"},
+        {"trigger":"zip_close","contents":"zip_close(${1:zip})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_close","contents":"zip_entry_close(${1:zip_ent})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_compressedsize","contents":"zip_entry_compressedsize(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_compressionmethod","contents":"zip_entry_compressionmethod(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_filesize","contents":"zip_entry_filesize(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_name","contents":"zip_entry_name(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_open","contents":"zip_entry_open(${1:zip_dp}, ${2:zip_entry}${3:, ${4:string:mode='rb'}})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_read","contents":"zip_entry_read(${1:zip_entry}${2:, ${3:int:len=1024}})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_open","contents":"zip_open(${1:string:filename})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_read","contents":"zip_read(${1:zip})","kind":"function","annotation":"deprecated zip Function"}
+    ]
+}

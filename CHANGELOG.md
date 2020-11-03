@@ -2,9 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 1.10.0 - Unrelased
+## 1.10.0 - 2020-11-03
 
 * Added: Update to latest PHP 8.0-dev
+* Fixed [#15](https://github.com/gerardroche/sublime-phpck/issues/15): Some completions failed.
 
 ## 1.9.0 - 2020-04-29
 

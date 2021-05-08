@@ -39,7 +39,7 @@
         {"trigger":"openssl_x509_free","contents":"openssl_x509_free(${1:OpenSSLCertificate:certificate})","kind":"function","annotation":"deprecated openssl Function"},
         {"trigger":"shmop_close","contents":"shmop_close(${1:Shmop:shmop})","kind":"function","annotation":"deprecated shmop Function"},
         {"trigger":"zip_close","contents":"zip_close(${1:zip})","kind":"function","annotation":"deprecated zip Function"},
-        {"trigger":"zip_entry_close","contents":"zip_entry_close(${1:zip_ent})","kind":"function","annotation":"deprecated zip Function"},
+        {"trigger":"zip_entry_close","contents":"zip_entry_close(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
         {"trigger":"zip_entry_compressedsize","contents":"zip_entry_compressedsize(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
         {"trigger":"zip_entry_compressionmethod","contents":"zip_entry_compressionmethod(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},
         {"trigger":"zip_entry_filesize","contents":"zip_entry_filesize(${1:zip_entry})","kind":"function","annotation":"deprecated zip Function"},

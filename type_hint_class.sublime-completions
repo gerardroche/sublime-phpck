@@ -173,7 +173,7 @@
         {"trigger":"ValueError","kind":["type","c","Class"],"annotation":"Core Class"},
         {"trigger":"WeakMap","kind":["type","c","Class"],"annotation":"Core Class"},
         {"trigger":"WeakReference","kind":["type","c","Class"],"annotation":"Core Class"},
-        {"trigger":"XmlParser","kind":["type","c","Class"],"annotation":"xml Class"},
+        {"trigger":"XMLParser","kind":["type","c","Class"],"annotation":"xml Class"},
         {"trigger":"XMLReader","kind":["type","c","Class"],"annotation":"xmlreader Class"},
         {"trigger":"XMLWriter","kind":["type","c","Class"],"annotation":"xmlwriter Class"},
         {"trigger":"XSLTProcessor","kind":["type","c","Class"],"annotation":"xsl Class"},

@@ -20,8 +20,6 @@
         {"trigger":"ArrayIterator","kind":["type","c","Class"],"annotation":"SPL Class"},
         {"trigger":"ArrayObject","kind":["type","c","Class"],"annotation":"SPL Class"},
         {"trigger":"AssertionError","kind":["type","c","Class"],"annotation":"standard Class"},
-        {"trigger":"ast_Metadata","contents":"\\ast\\Metadata","kind":["type","c","Class"],"annotation":"ast Class"},
-        {"trigger":"ast_Node","contents":"\\ast\\Node","kind":["type","c","Class"],"annotation":"ast Class"},
         {"trigger":"Attribute","kind":["type","c","Class"],"annotation":"Core Class"},
         {"trigger":"CachingIterator","kind":["type","c","Class"],"annotation":"SPL Class"},
         {"trigger":"CallbackFilterIterator","kind":["type","c","Class"],"annotation":"SPL Class"},

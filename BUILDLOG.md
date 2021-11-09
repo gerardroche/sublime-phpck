@@ -4,7 +4,6 @@
 
 Extensions
 
-* ast
 * bcmath
 * bz2
 * calendar
@@ -29,7 +28,6 @@ Extensions
 * mysqlnd
 * openssl
 * pcntl
-* pcov
 * pcre
 * PDO
 * pdo_mysql

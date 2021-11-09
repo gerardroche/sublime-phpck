@@ -19,6 +19,8 @@
         {"trigger":"ArrayIterator","contents":"ArrayIterator(${1:object|array:array=array()}${2:, ${3:int:flags=0}})","kind":["type","n","Instantiable"],"annotation":"SPL Class"},
         {"trigger":"ArrayObject","contents":"ArrayObject(${1:object|array:array=array()}${2:, ${3:int:flags=0}${4:, ${5:string:iteratorClass='ArrayIterator'}}})","kind":["type","n","Instantiable"],"annotation":"SPL Class"},
         {"trigger":"AssertionError","contents":"AssertionError(${1:string:message=''}${2:, ${3:int:code=0}${4:, ${5:?Throwable:previous=null}}})","kind":["type","n","Instantiable"],"annotation":"standard Class"},
+        {"trigger":"ast_Metadata","contents":"\\ast\\Metadata()","kind":["type","n","Instantiable"],"annotation":"ast Class"},
+        {"trigger":"ast_Node","contents":"ast_Node(${1:?int:kind=null}${2:, ${3:?int:flags=null}${4:, ${5:?array:children=null}${6:, ${7:?int:lineno=null}}}})","kind":["type","n","Instantiable"],"annotation":"ast Class"},
         {"trigger":"Attribute","contents":"Attribute(${1:int:flags=63})","kind":["type","n","Instantiable"],"annotation":"Core Class"},
         {"trigger":"BadFunctionCallException","contents":"BadFunctionCallException(${1:string:message=''}${2:, ${3:int:code=0}${4:, ${5:?Throwable:previous=null}}})","kind":["type","n","Instantiable"],"annotation":"SPL Exception"},
         {"trigger":"BadMethodCallException","contents":"BadMethodCallException(${1:string:message=''}${2:, ${3:int:code=0}${4:, ${5:?Throwable:previous=null}}})","kind":["type","n","Instantiable"],"annotation":"SPL Exception"},

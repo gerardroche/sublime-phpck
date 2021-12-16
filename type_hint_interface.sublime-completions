@@ -14,6 +14,7 @@
     "scope": "source.php comment.block, source.php meta.class entity.other.inherited-class, source.php meta.class meta.function.return-type, source.php meta.function.arguments - variable.other - variable.parameter, source.php meta.interface entity.other.inherited-class, source.php meta.use",
     "completions": [
         {"trigger":"ArrayAccess","kind":["type","i","Interface"],"annotation":"Core Interface"},
+        {"trigger":"BackedEnum","kind":["type","i","Interface"],"annotation":"Core Interface"},
         {"trigger":"Countable","kind":["type","i","Interface"],"annotation":"Core Interface"},
         {"trigger":"DateTimeInterface","kind":["type","i","Interface"],"annotation":"date Interface"},
         {"trigger":"DOMChildNode","kind":["type","i","Interface"],"annotation":"dom Interface"},
@@ -33,6 +34,7 @@
         {"trigger":"SplSubject","kind":["type","i","Interface"],"annotation":"SPL Interface"},
         {"trigger":"Stringable","kind":["type","i","Interface"],"annotation":"Core Interface"},
         {"trigger":"Throwable","kind":["type","i","Interface"],"annotation":"Core Interface"},
-        {"trigger":"Traversable","kind":["type","i","Interface"],"annotation":"Core Interface"}
+        {"trigger":"Traversable","kind":["type","i","Interface"],"annotation":"Core Interface"},
+        {"trigger":"UnitEnum","kind":["type","i","Interface"],"annotation":"Core Interface"}
     ]
 }

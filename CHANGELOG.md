@@ -2,9 +2,9 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
-## 1.11.0 - Unreleased
+## 1.11.0 - 2020-12-16
 
-* Added: Update to PHP 8.0.6
+* Added: Update to PHP 8.0.9
 
 ## 1.10.0 - 2020-11-03
 

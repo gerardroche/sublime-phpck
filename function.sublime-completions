@@ -516,7 +516,7 @@
         {"trigger":"hash_hkdf","contents":"hash_hkdf(${1:string:algo}, ${2:string:key}${3:, ${4:int:length=0}${5:, ${6:string:info=''}${7:, ${8:string:salt=''}}}})","kind":"function","annotation":"hash Function"},
         {"trigger":"hash_hmac","contents":"hash_hmac(${1:string:algo}, ${2:string:data}, ${3:string:key}${4:, ${5:bool:binary=false}})","kind":"function","annotation":"hash Function"},
         {"trigger":"hash_hmac_algos","contents":"hash_hmac_algos()","kind":"function","annotation":"hash Function"},
-        {"trigger":"hash_hmac_file","contents":"hash_hmac_file(${1:string:algo}, ${2:string:data}, ${3:string:key}${4:, ${5:bool:binary=false}})","kind":"function","annotation":"hash Function"},
+        {"trigger":"hash_hmac_file","contents":"hash_hmac_file(${1:string:algo}, ${2:string:filename}, ${3:string:key}${4:, ${5:bool:binary=false}})","kind":"function","annotation":"hash Function"},
         {"trigger":"hash_init","contents":"hash_init(${1:string:algo}${2:, ${3:int:flags=0}${4:, ${5:string:key=''}${6:, ${7:array:options=array()}}}})","kind":"function","annotation":"hash Function"},
         {"trigger":"hash_pbkdf2","contents":"hash_pbkdf2(${1:string:algo}, ${2:string:password}, ${3:string:salt}, ${4:int:iterations}${5:, ${6:int:length=0}${7:, ${8:bool:binary=false}}})","kind":"function","annotation":"hash Function"},
         {"trigger":"hash_update","contents":"hash_update(${1:HashContext:context}, ${2:string:data})","kind":"function","annotation":"hash Function"},

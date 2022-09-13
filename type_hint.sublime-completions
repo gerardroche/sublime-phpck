@@ -8,17 +8,18 @@
 
     "scope": "source.php meta.class meta.function.return-type, source.php meta.function.parameters meta.group - variable",
     "completions": [
-        {"trigger":"array","kind":"type","annotation":"Type Hint"},
-        {"trigger":"bool","kind":"type","annotation":"Type Hint"},
-        {"trigger":"callable","kind":"type","annotation":"Type Hint"},
-        {"trigger":"float","kind":"type","annotation":"Type Hint"},
-        {"trigger":"int","kind":"type","annotation":"Type Hint"},
-        {"trigger":"iterable","kind":"type","annotation":"Type Hint"},
-        {"trigger":"null","kind":"type","annotation":"Type Hint"},
-        {"trigger":"object","kind":"type","annotation":"Type Hint"},
-        {"trigger":"parent","kind":"type","annotation":"Type Hint"},
-        {"trigger":"self","kind":"type","annotation":"Type Hint"},
-        {"trigger":"string","kind":"type","annotation":"Type Hint"},
-        {"trigger":"void","kind":"type","annotation":"Type Hint"}
+        {"trigger":"array","kind":"type","annotation":"Type hint"},
+        {"trigger":"bool","kind":"type","annotation":"Type hint"},
+        {"trigger":"callable","kind":"type","annotation":"Type hint"},
+        {"trigger":"float","kind":"type","annotation":"Type hint"},
+        {"trigger":"int","kind":"type","annotation":"Type hint"},
+        {"trigger":"iterable","kind":"type","annotation":"Type hint"},
+        {"trigger":"mixed","kind":"type","annotation":"Type hint"},
+        {"trigger":"null","kind":"type","annotation":"Type hint"},
+        {"trigger":"object","kind":"type","annotation":"Type hint"},
+        {"trigger":"parent","kind":"type","annotation":"Type hint"},
+        {"trigger":"self","kind":"type","annotation":"Type hint"},
+        {"trigger":"string","kind":"type","annotation":"Type hint"},
+        {"trigger":"void","kind":"type","annotation":"Type hint"}
     ]
 }

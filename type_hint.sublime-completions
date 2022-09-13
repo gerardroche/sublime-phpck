@@ -15,10 +15,12 @@
         {"trigger":"int","kind":"type","annotation":"Type hint"},
         {"trigger":"iterable","kind":"type","annotation":"Type hint"},
         {"trigger":"mixed","kind":"type","annotation":"Type hint"},
+        {"trigger":"never","kind":"type","annotation":"Type hint"},
         {"trigger":"null","kind":"type","annotation":"Type hint"},
         {"trigger":"object","kind":"type","annotation":"Type hint"},
         {"trigger":"parent","kind":"type","annotation":"Type hint"},
         {"trigger":"self","kind":"type","annotation":"Type hint"},
+        {"trigger":"static","kind":"type","annotation":"Type hint"},
         {"trigger":"string","kind":"type","annotation":"Type hint"},
         {"trigger":"void","kind":"type","annotation":"Type hint"}
     ]

@@ -9,13 +9,20 @@
 
     "scope": "source.php comment.block, source.php meta.catch, source.php meta.class entity.other.inherited-class, source.php meta.class meta.function.return-type, source.php meta.use",
     "completions": [
+        {"trigger":"ArgumentCountError","kind":["type","x","Exception"],"annotation":"Core Class"},
+        {"trigger":"ArithmeticError","kind":["type","x","Exception"],"annotation":"Core Class"},
+        {"trigger":"AssertionError","kind":["type","x","Exception"],"annotation":"standard Class"},
         {"trigger":"BadFunctionCallException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"BadMethodCallException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"ClosedGeneratorException","kind":["type","x","Exception"],"annotation":"Core Exception"},
+        {"trigger":"CompileError","kind":["type","x","Exception"],"annotation":"Core Class"},
+        {"trigger":"DivisionByZeroError","kind":["type","x","Exception"],"annotation":"Core Class"},
         {"trigger":"DomainException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"DOMException","kind":["type","x","Exception"],"annotation":"dom Exception"},
+        {"trigger":"Error","kind":["type","x","Exception"],"annotation":"Core Class"},
         {"trigger":"ErrorException","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"Exception","kind":["type","x","Exception"],"annotation":"Core Exception"},
+        {"trigger":"FiberError","kind":["type","x","Exception"],"annotation":"Core Class"},
         {"trigger":"IntlException","kind":["type","x","Exception"],"annotation":"intl Exception"},
         {"trigger":"InvalidArgumentException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"JsonException","kind":["type","x","Exception"],"annotation":"json Exception"},
@@ -25,13 +32,17 @@
         {"trigger":"OutOfBoundsException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"OutOfRangeException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"OverflowException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
+        {"trigger":"ParseError","kind":["type","x","Exception"],"annotation":"Core Class"},
         {"trigger":"PDOException","kind":["type","x","Exception"],"annotation":"PDO Exception"},
         {"trigger":"PharException","kind":["type","x","Exception"],"annotation":"Phar Exception"},
         {"trigger":"RangeException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"ReflectionException","kind":["type","x","Exception"],"annotation":"Reflection Exception"},
         {"trigger":"RuntimeException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"SoapFault","kind":["type","x","Exception"],"annotation":"soap Exception"},
+        {"trigger":"TypeError","kind":["type","x","Exception"],"annotation":"Core Class"},
         {"trigger":"UnderflowException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
-        {"trigger":"UnexpectedValueException","kind":["type","x","Exception"],"annotation":"SPL Exception"}
+        {"trigger":"UnexpectedValueException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
+        {"trigger":"UnhandledMatchError","kind":["type","x","Exception"],"annotation":"Core Class"},
+        {"trigger":"ValueError","kind":["type","x","Exception"],"annotation":"Core Class"}
     ]
 }

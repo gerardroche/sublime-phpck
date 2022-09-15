@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.13.0 - 2022-09-15
+
+* Added: Argument and return type details in autocomplete popup
+
 ## 1.12.0 - 2022-09-12
 
 * Added: Update to PHP 8.1.0

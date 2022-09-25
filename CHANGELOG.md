@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.13.1 - 2022-09-25
+
+* Fixed: Parse errors when details contains unescaped ampersand character
+
 ## 1.13.0 - 2022-09-15
 
 * Added: Argument and return type details in autocomplete popup

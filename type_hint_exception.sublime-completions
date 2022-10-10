@@ -16,9 +16,9 @@
         {"trigger":"BadMethodCallException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"ClosedGeneratorException","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"CompileError","kind":["type","x","Exception"],"annotation":"Core Exception"},
+        {"trigger":"DOMException","kind":["type","x","Exception"],"annotation":"dom Exception"},
         {"trigger":"DivisionByZeroError","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"DomainException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
-        {"trigger":"DOMException","kind":["type","x","Exception"],"annotation":"dom Exception"},
         {"trigger":"Error","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"ErrorException","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"Exception","kind":["type","x","Exception"],"annotation":"Core Exception"},
@@ -28,12 +28,11 @@
         {"trigger":"JsonException","kind":["type","x","Exception"],"annotation":"json Exception"},
         {"trigger":"LengthException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"LogicException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
-        {"trigger":"mysqli_sql_exception","kind":["type","x","Exception"],"annotation":"mysqli Exception"},
         {"trigger":"OutOfBoundsException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"OutOfRangeException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"OverflowException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
-        {"trigger":"ParseError","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"PDOException","kind":["type","x","Exception"],"annotation":"PDO Exception"},
+        {"trigger":"ParseError","kind":["type","x","Exception"],"annotation":"Core Exception"},
         {"trigger":"PharException","kind":["type","x","Exception"],"annotation":"Phar Exception"},
         {"trigger":"RangeException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"ReflectionException","kind":["type","x","Exception"],"annotation":"Reflection Exception"},
@@ -43,6 +42,7 @@
         {"trigger":"UnderflowException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"UnexpectedValueException","kind":["type","x","Exception"],"annotation":"SPL Exception"},
         {"trigger":"UnhandledMatchError","kind":["type","x","Exception"],"annotation":"Core Exception"},
-        {"trigger":"ValueError","kind":["type","x","Exception"],"annotation":"Core Exception"}
+        {"trigger":"ValueError","kind":["type","x","Exception"],"annotation":"Core Exception"},
+        {"trigger":"mysqli_sql_exception","kind":["type","x","Exception"],"annotation":"mysqli Exception"}
     ]
 }

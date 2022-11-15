@@ -11,6 +11,7 @@
     //     meta.function.arguments
     //     meta.use
     //     string
+    //     variable.language
     //     variable.other
     //     variable.parameter
     // source.php meta.class.php meta.block.php
@@ -23,11 +24,12 @@
     //     meta.function.parameters
     //     meta.use
     //     string
+    //     variable.language
     //     variable.other
     //     variable.parameter
     //     meta.function.return-type
 
-    "scope": "source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.other - variable.parameter - meta.function.return-type",
+    "scope": "source.php - comment - constant.other.class - entity.name - meta.catch - meta.class - meta.function.arguments - meta.use - string - variable.language - variable.other - variable.parameter, source.php meta.class.php meta.block.php - comment - constant.other.class - entity.name - meta.catch - meta.function.arguments - meta.function.parameters - meta.use - string - variable.language - variable.other - variable.parameter - meta.function.return-type",
     "completions": [
         {"trigger":"__halt_compiler","contents":"__halt_compiler(${1})","kind":"keyword","annotation":"Language construct"},
         {"trigger":"abstract","contents":"abstract","kind":"keyword","annotation":"Language construct"},

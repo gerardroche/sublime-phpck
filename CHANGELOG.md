@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.14.0 - 2022-12-16
+
+* Added: Enriched annotations and details
+
 ## 1.13.1 - 2022-09-25
 
 * Fixed: Parse errors when details contains unescaped ampersand character

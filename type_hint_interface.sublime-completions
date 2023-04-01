@@ -23,6 +23,8 @@
         {"trigger":"IteratorAggregate","kind":["type","i","Interface"],"annotation":"Core Interface"},
         {"trigger":"JsonSerializable","kind":["type","i","Interface"],"annotation":"json Interface"},
         {"trigger":"OuterIterator","kind":["type","i","Interface"],"annotation":"SPL Interface"},
+        {"trigger":"Random_CryptoSafeEngine","contents":"\\Random\\CryptoSafeEngine","kind":["type","i","Interface"],"annotation":"random Interface"},
+        {"trigger":"Random_Engine","contents":"\\Random\\Engine","kind":["type","i","Interface"],"annotation":"random Interface"},
         {"trigger":"RecursiveIterator","kind":["type","i","Interface"],"annotation":"SPL Interface"},
         {"trigger":"Reflector","kind":["type","i","Interface"],"annotation":"Reflection Interface"},
         {"trigger":"SeekableIterator","kind":["type","i","Interface"],"annotation":"SPL Interface"},

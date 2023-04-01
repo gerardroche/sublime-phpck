@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 8.1.13
+* PHP 8.2.3
 
 Extensions
 
@@ -34,6 +34,7 @@ Extensions
 * pdo_sqlite
 * Phar
 * posix
+* random
 * readline
 * Reflection
 * session

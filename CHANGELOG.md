@@ -2,6 +2,10 @@
 
 All notable changes are documented in this file using the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## 1.15.0 - 2023-04-01
+
+* Added: Update to PHP 8.2
+
 ## 1.14.0 - 2022-12-16
 
 * Added: Enriched annotations and details

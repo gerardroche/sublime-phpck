@@ -59,7 +59,7 @@ Relating Sublime Text settings:
 }
 ```
 
-Set them globally: `Menu > Preferences > Settings`:
+Set them globally: **Menu → Preferences → Settings**:
 
 ```json
 {
@@ -68,7 +68,7 @@ Set them globally: `Menu > Preferences > Settings`:
 }
 ```
 
-Set them per-project: `Menu > Project > Edit Project`:
+Set them per-project: **Menu → Project → Edit Project**:
 
 ```json
 {

@@ -84,6 +84,7 @@
         {"trigger":"mail_add_x_header","contents":"mail.add_x_header","annotation":"Core INI Entry"},
         {"trigger":"mail_force_extra_parameters","contents":"mail.force_extra_parameters","annotation":"Core INI Entry"},
         {"trigger":"mail_log","contents":"mail.log","annotation":"Core INI Entry"},
+        {"trigger":"mail_mixed_lf_and_crlf","contents":"mail.mixed_lf_and_crlf","annotation":"Core INI Entry"},
         {"trigger":"max_execution_time","annotation":"Core INI Entry"},
         {"trigger":"max_file_uploads","annotation":"Core INI Entry"},
         {"trigger":"max_input_nesting_level","annotation":"Core INI Entry"},

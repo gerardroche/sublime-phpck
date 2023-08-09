@@ -1,6 +1,6 @@
 # Build Log
 
-* PHP 8.2.7
+* PHP 8.2.9
 
 Extensions
 

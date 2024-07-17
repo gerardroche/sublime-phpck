@@ -83,6 +83,6 @@ Set them per-project: **Menu → Project → Edit Project**:
 
 See [CHANGELOG.md](CHANGELOG.md).
 
-## LICENSE
+## License
 
-Released under the [BSD 3-Clause License](LICENSE).
+Released under the [GPL-3.0-or-later License](LICENSE).

@@ -1,4 +1,4 @@
-# WHAT PHP COMPLETIONS KIT IS
+# PHP Completions Kit
 
 [![Minimum Sublime Version](https://img.shields.io/badge/sublime-%3E%3D%203.0-brightgreen.svg?style=flat-square)](https://sublimetext.com) [![Latest Version](https://img.shields.io/github/tag/gerardroche/sublime-phpck.svg?style=flat-square&label=version)](https://github.com/gerardroche/sublime-phpck/tags) [![GitHub stars](https://img.shields.io/github/stars/gerardroche/sublime-phpck.svg?style=flat-square)](https://github.com/gerardroche/sublime-phpck/stargazers) [![Downloads](https://img.shields.io/packagecontrol/dt/PHP%20Completions%20Kit.svg?style=flat-square)](https://packagecontrol.io/packages/PHP%20Completions%20Kit)
 
